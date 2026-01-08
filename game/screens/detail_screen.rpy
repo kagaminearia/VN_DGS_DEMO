@@ -1,4 +1,5 @@
 screen detail_screen:
+    on "show" action Stop(channel="text")
     default category = "clue"
     add "#0000001a"
     add "gui/ev/ev-bg.png":
@@ -179,6 +180,7 @@ style char_info_text:
     size 22
 
 screen char_screen(index):
+    on "show" action Stop(channel="text")
     modal True
     add "#0000003d"
     add "gui/ev/clue-bg.webp":
@@ -238,6 +240,7 @@ screen char_screen(index):
 
 
 screen clue_screen(index):
+    on "show" action Stop(channel="text")
     modal True
     add "#0000003d"
     add "gui/ev/clue-bg.webp":

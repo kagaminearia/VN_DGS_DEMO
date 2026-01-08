@@ -9,7 +9,7 @@
 define config.history_length = 250
 
 screen history():
-
+    on "show" action Stop(channel="text")
     tag menu
     add "gui/menu_bg.webp"
     ## Avoid predicting this screen, as it can be very large.
@@ -22,7 +22,9 @@ screen history():
         xalign 0.5
         yalign 0.5
         style_prefix 'history'
-        mousewheel True draggable True pagekeys True
+        mousewheel True
+        draggable False
+        pagekeys True
         scrollbars "vertical"
         yinitial 1.0
 

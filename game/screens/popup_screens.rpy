@@ -35,6 +35,8 @@ screen confirm(message, yes_action, no_action=None):
     else:
         key "game_menu" action yes_action
 
+    on "show" action Stop(channel="text")
+
 style confirm_frame:
     background Frame("gui/frame.png", 60, 60, 60, 60, tile=False)
     padding (60, 60, 60, 60)

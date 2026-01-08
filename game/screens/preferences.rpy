@@ -8,6 +8,8 @@
 
 screen preferences():
 
+    on "show" action Stop(channel="text")
+
     tag menu
     add "gui/menu_bg.webp"
     use game_menu(_("游戏设置"))

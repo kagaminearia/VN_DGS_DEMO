@@ -10,6 +10,7 @@
 ##
 
 screen game_menu(title):
+    on "show" action Stop(channel="text")
     style_prefix "game_menu"
 
     hbox:

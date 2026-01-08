@@ -92,6 +92,8 @@ style say_label:
 
 screen quick_menu():
 
+    on "show" action Stop(channel="text")
+
     ## Ensure this appears on top of other screens.
     zorder 100
 

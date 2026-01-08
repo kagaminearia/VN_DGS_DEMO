@@ -14,9 +14,11 @@ define config.thumbnail_height = 216
 
 
 screen save():
+    on "show" action Stop(channel="text")
     tag menu
     add "gui/menu_bg.webp"
     use file_slots(_("保存进度"))
+    on "show" action Stop(channel="text")
 
 
 screen load():
@@ -26,6 +28,7 @@ screen load():
 
 
 screen file_slots(title):
+    on "show" action Stop(channel="text")
 
     default page_name_value = FilePageNameInputValue(
         pattern=_(""), auto=_("Automatic saves"),

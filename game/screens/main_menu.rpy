@@ -8,6 +8,7 @@
 screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
+    on "show" action Stop(channel="text")
     add "images/main/main.webp"
     add "images/main/main-title.webp"
     hbox:

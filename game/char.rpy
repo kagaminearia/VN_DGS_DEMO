@@ -1,10 +1,18 @@
 # Register a channel for text beeps
 init python:
-    renpy.music.register_channel("text", mixer="voice")
+    renpy.music.register_channel("text", mixer="voice", tight=True)
 
 init python:
     import renpy.exports as renpy_exports
     global say_what
+
+    STOP_EVENTS = {
+        "slow_done",
+        "end",
+        "hide",
+        "replaced",
+        "dismiss",
+    }
 
     def click_callback(event, interact=True, **kwargs):
         # TODO: fix continuous play when switching to main screen
@@ -15,7 +23,7 @@ init python:
             if "name" not in kwargs:
                 renpy.sound.play(sound.click, channel = "text", loop = True)
                 return
-            
+    
             name = kwargs["name"]
             if name == "bys":
                 renpy.sound.play(sound.click_2, channel = "text", loop = True)
@@ -23,12 +31,23 @@ init python:
             if name == "xs":
                 renpy.sound.play(sound.click_3, channel = "text", loop = True)
                 return
+            if name == "xp":
+                renpy.sound.play(sound.click_4, channel = "text", loop = True)
+                return
 
-
-        elif event == "slow_done":
-            renpy.sound.stop(channel = "text")
-        elif event == "end":
+        elif event in STOP_EVENTS:
             renpy.sound.stop(channel = "text", fadeout = 0.1)
+
+    def notification_callback(event, interact = True, **kwargs):
+        if event == "show":
+            if "name" not in kwargs: return
+            
+            name = kwargs["name"]
+            if name == "receive":
+                renpy.sound.play(sound.receive_notification, channel = "text")
+            elif name == "send":
+                renpy.sound.play(sound.send_notification, channel = "text")
+
 
 init python:
     def combined_callback(event, interact=True, **kwargs):
@@ -71,8 +90,8 @@ define bys = Character("白一",what_prefix="“",what_suffix="”",image='byimg
 image side bysimg = LayeredImageProxy("bysimg", Transform(zoom=0.49,xoffset=-250,yoffset=1450))
 
 
-define s_nvl = Character("接收", kind=nvl) # 接收的消息
-define r_nvl = Character("发送", kind=nvl) # 发送的消息，主角
+define s_nvl = Character("接收", kind=nvl, callback = notification_callback, cb_name = "receive") # 接收的消息
+define r_nvl = Character("发送", kind=nvl, callback = notification_callback, cb_name = "send") # 发送的消息，主角
 
 define nabox = Image("gui/textbox_2.png",xpos=-310,ypos=20)
 define na = Character(None,what_font="fonts/香萃潮汐宋W15.ttf",what_color="#000000",window_background=nabox)
