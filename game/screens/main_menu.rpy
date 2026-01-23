@@ -10,7 +10,12 @@ screen main_menu():
     tag menu
     on "show" action Stop(channel="text")
     add "images/main/main.webp"
-    add "images/main/main-title.webp"
+    # add "images/main/main-title.webp"
+    add ConditionSwitch(
+        "_preferences.language == 'english'", "images/en/main/main-title.webp",
+        "_preferences.language == 'None'", "images/main/main-title.webp",
+        "True", "images/main/main-title.webp"  # fallback
+    )
     hbox:
         yalign 0.85
         vbox:

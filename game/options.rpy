@@ -24,7 +24,7 @@ define build.name = "DGS-DEMO"
 
 
 # languages ##############################################################
-define config.default_language = "chinese"
+# define config.language = "chinese"
 
 
 ## Save directory ##############################################################
