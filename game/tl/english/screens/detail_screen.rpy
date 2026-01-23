@@ -14,3 +14,13 @@ translate english strings:
     old "人物"
     new "{size=15}CHARACTER{/size}"
 
+translate english strings:
+
+    # game/screens/detail_screen.rpy:98
+    old "暂未解锁"
+    new ""
+
+    # game/screens/detail_screen.rpy:116
+    old "目录为空"
+    new ""
+

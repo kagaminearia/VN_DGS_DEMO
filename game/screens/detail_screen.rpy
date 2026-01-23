@@ -95,7 +95,7 @@ screen detail_screen:
                                 yoffset 20
                             background "gui/ev/ev-btn-idle.png"
                             hover_background "gui/ev/ev-btn-hover.png"
-                            text "暂未解锁":
+                            text _("暂未解锁"):
                                 yoffset -20
                                 align (0.5,1.0)
                                 color gui.black
@@ -113,7 +113,7 @@ screen detail_screen:
             xysize (520,920)
             if len(persistent.dictList) == 0:
                 vbox:
-                    text "目录为空":
+                    text _("目录为空"):
                         align (0.5,0.5)
                         font gui.detailtitle_font
                         color gui.black

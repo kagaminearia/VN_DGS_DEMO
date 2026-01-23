@@ -1860,3 +1860,43 @@ translate english strings:
     old "还有细节"
     new ""
 
+# TODO: Translation updated at 2026-01-23 07:16
+
+translate english strings:
+
+    # game/scripts/c1/c1-1.rpy:248
+    old "白一的家"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:369
+    old "温心的家"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:415
+    old "温心的死亡原因？"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:510
+    old "被忽略的细节？"
+    new ""
+
+# TODO: Translation updated at 2026-01-23 07:24
+
+translate english strings:
+
+    # game/scripts/c1/c1-1.rpy:87
+    old "怪异"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:87
+    old "对“无法用现如今的常识解释的，违反对科学的普遍认知超自然的事件”的统称。\n怪异有多种形态，可单独存在，也可以和生物——活着或死去的生物——相互影响。\n怪异各有不同，一千种怪异可能有一千种特征。它们被收录在城安局的信息系统，也总结出了一套处理公式。"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:102
+    old "怪异的负面影响"
+    new ""
+
+    # game/scripts/c1/c1-1.rpy:102
+    old "怪异和生物——尤其是人类——接触后，有大概率产生无法控制的负面影响。\n常见的影响作用于精神层面，如频繁的噩梦，幻觉，扰人心智的呓语。\n但也有影响直接作用于身体，如皮肤溃烂、发黑，器官病变。\n影响大多不可逆，也容易留下心理创伤。"
+    new ""
+

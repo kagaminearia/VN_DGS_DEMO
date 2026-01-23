@@ -10,7 +10,7 @@ label c0:
     $ quick_menu = False
     window hide
     scene bg_sickroom with vpunchm
-    show screen tpoinfo("12月12日，星期日","？？？") with dissolve
+    show screen tpoinfo(_("12月12日，星期日"),_("？？？")) with dissolve
     pause 1
     hide screen tpoinfo with dissolve
     window auto
@@ -154,7 +154,7 @@ label c0:
     by eye_def o "所以……你叫什么，怎么称呼？"
     $ persistent.inputstyle = 0
     python:
-        user = renpy.input("想被称呼为？", length=15)
+        user = renpy.input(_("想被称呼为？"), length=15)
         user = user.strip()
         renpy.save_persistent() # ensure the data will not be lost
         if not user:
@@ -202,7 +202,7 @@ label c0:
     window hide
     scene bg_meetingroom with Fade(0.3,0.5,0.3,color="#000")
     window hide
-    show screen tpoinfo("12月12日，星期日","城安局") with dissolve
+    show screen tpoinfo(_("12月12日，星期日"),_("城安局")) with dissolve
     pause 1
     hide screen tpoinfo with dissolve
     window auto
@@ -212,10 +212,14 @@ label c0:
     me "话说，城安局是什么地方？"
     by eye_wacky o "……啊？你连城安局是什么都不知道，却知道这里就是？\n真是有够奇怪的……"
     python:
-        persistent.dictList.append(("城安局","全称为城市安全管理局，顾名思义，负责处理影响到城市安全的事件。\n内部人员一般分为三个组，民案组，刑事组，特调组。"))
-        persistent.dictList = list(set(persistent.dictList))
+        persistent.dictList.append((
+            _("城安局"),
+            _("全称为城市安全管理局，顾名思义，负责处理影响到城市安全的事件。\n内部人员一般分为三个组，民案组，刑事组，特调组。")
+        ))
+        persistent.dictList = list(set(persistent.dictList))    
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
+
     by eye_def e "就是{b}城市安全管理局{/b}啊，看名字就懂了吧。"
     me "哦……"
     by eye_move o "这么看，这里应该是询问室了。啧……我怎么这么倒霉。"
@@ -278,10 +282,15 @@ label c0:
     "面对突如其来的问题，白一显得十分疑惑，但还是老老实实地回答。"
     by eye_def o "当然知道啊。特别案件调查组……是吧。"
     python:
-        persistent.dictList.append(("特调组-1","全称为特别案件调查组，是城安局的主要部门之一，负责解决已经对社会产生重大恶劣影响的事件。"))
+        persistent.dictList.append((
+            _("特调组-1"),
+            _("全称为特别案件调查组，是城安局的主要部门之一，负责解决已经对社会产生重大恶劣影响的事件。")
+        ))
         persistent.dictList = list(set(persistent.dictList))
+
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
+
     by eye_still e "所以，是不是有什么危险的事情，跟我有关，所以你们才……？"
     xs "嗯，你说得没错，但也不完全是。不过你那么想也没问题。"
     hide xsimg
@@ -296,10 +305,14 @@ label c0:
     show xsimg at char_mid
     xs "特殊怪异事件调查组。"
     python:
-        persistent.dictList.append(("特调组-2","除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。"))
+        persistent.dictList.append((
+            _("特调组-2"),
+            _("除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。")
+        ))
         persistent.dictList = list(set(persistent.dictList))
+
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
     by eye_wacky def "……"
     "不知为何——也许是一种说不清楚的直觉——白一的呼吸短暂停止了一瞬间。"
     "但只是一瞬间。\n她很快又恢复气息，装作没有任何反应的样子。"

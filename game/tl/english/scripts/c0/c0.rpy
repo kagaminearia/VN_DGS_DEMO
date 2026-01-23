@@ -1236,3 +1236,52 @@ translate english c0_ce2d9232:
     # xs "到底是什么？"
     xs ""
 
+# TODO: Translation updated at 2026-01-23 07:16
+
+translate english strings:
+
+    # game/scripts/c0/c0.rpy:13
+    old "12月12日，星期日"
+    new ""
+
+    # game/scripts/c0/c0.rpy:13
+    old "？？？"
+    new ""
+
+    # game/scripts/c0/c0.rpy:157
+    old "想被称呼为？"
+    new ""
+
+    # game/scripts/c0/c0.rpy:205
+    old "城安局"
+    new ""
+
+    # game/scripts/c0/c0.rpy:221
+    old "【词典】更新"
+    new ""
+
+
+# TODO: Translation updated at 2026-01-23 07:24
+
+translate english strings:
+
+    # game/scripts/c0/c0.rpy:215
+    old "全称为城市安全管理局，顾名思义，负责处理影响到城市安全的事件。\n内部人员一般分为三个组，民案组，刑事组，特调组。"
+    new ""
+
+    # game/scripts/c0/c0.rpy:285
+    old "特调组-1"
+    new ""
+
+    # game/scripts/c0/c0.rpy:285
+    old "全称为特别案件调查组，是城安局的主要部门之一，负责解决已经对社会产生重大恶劣影响的事件。"
+    new ""
+
+    # game/scripts/c0/c0.rpy:308
+    old "特调组-2"
+    new ""
+
+    # game/scripts/c0/c0.rpy:308
+    old "除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。"
+    new ""
+

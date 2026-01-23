@@ -84,10 +84,13 @@ label c1_1:
     show xsimg o at char_mid
     xs "嗯，我们把这些事统称为“怪异”。"
     python:
-        persistent.dictList.append(("怪异","对“无法用现如今的常识解释的，违反对科学的普遍认知超自然的事件”的统称。\n怪异有多种形态，可单独存在，也可以和生物——活着或死去的生物——相互影响。\n怪异各有不同，一千种怪异可能有一千种特征。它们被收录在城安局的信息系统，也总结出了一套处理公式。"))
+        persistent.dictList.append((
+            _("怪异"),
+            _("对“无法用现如今的常识解释的，违反对科学的普遍认知超自然的事件”的统称。\n怪异有多种形态，可单独存在，也可以和生物——活着或死去的生物——相互影响。\n怪异各有不同，一千种怪异可能有一千种特征。它们被收录在城安局的信息系统，也总结出了一套处理公式。")
+        ))
         persistent.dictList = list(set(persistent.dictList))
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
     by eye_move o "哦哦，说你呢，不科学的东西，都怪你。"
     "知道能被西顺听见后，白一装也不装了，当着她说话的面就开始把怒火放在我身上。"
     me "……喂，我也很无辜。"
@@ -96,10 +99,13 @@ label c1_1:
     show xsimg eye_close o at char_mid
     xs "刚刚我们在谈话中已经确认了，你现在是清醒的，你身上的怪异特性也没有对你本人的身体产生负面影响。"
     python:
-        persistent.dictList.append(("怪异的负面影响","怪异和生物——尤其是人类——接触后，有大概率产生无法控制的负面影响。\n常见的影响作用于精神层面，如频繁的噩梦，幻觉，扰人心智的呓语。\n但也有影响直接作用于身体，如皮肤溃烂、发黑，器官病变。\n影响大多不可逆，也容易留下心理创伤。"))
+        persistent.dictList.append((
+            _("怪异的负面影响"),
+            _("怪异和生物——尤其是人类——接触后，有大概率产生无法控制的负面影响。\n常见的影响作用于精神层面，如频繁的噩梦，幻觉，扰人心智的呓语。\n但也有影响直接作用于身体，如皮肤溃烂、发黑，器官病变。\n影响大多不可逆，也容易留下心理创伤。")
+        ))
         persistent.dictList = list(set(persistent.dictList))
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
     hide xsimg
     show xsimg at char_mid
     xs "嗯，至少目前没有。"
@@ -239,7 +245,7 @@ label c1_1:
     $ quick_menu = False
     window hide
     scene bg_byroom3 with Fade(0.3,0.5,0.3)
-    show screen tpoinfo("12月12日，星期日","白一的家") with dissolve
+    show screen tpoinfo(_("12月12日，星期日"),_("白一的家")) with dissolve
     pause 1
     hide screen tpoinfo with dissolve
     window auto
@@ -360,7 +366,7 @@ label c1_1:
     $ quick_menu = False
     window hide
     scene bg_wxroom with fade
-    show screen tpoinfo("12月12日，星期日","温心的家") with dissolve
+    show screen tpoinfo(_("12月12日，星期日"),_("温心的家")) with dissolve
     pause 1
     hide screen tpoinfo with dissolve
     window auto
@@ -406,7 +412,7 @@ label c1_1_extra:
 label c1_1_wrongmenu:
     window hide
     $ quick_menu = False
-    show screen clue_choice([3,6],"c1_1_wrongmenu_continue","c1_1_wrongmenu_continue","温心的死亡原因？")
+    show screen clue_choice([3,6],"c1_1_wrongmenu_continue","c1_1_wrongmenu_continue",_("温心的死亡原因？"))
     pause
     jump c1_1_wrongmenu
     return
@@ -426,7 +432,7 @@ label c1_1_menu1:
     window hide
     $ quick_menu = False
     # 【选对笔记-药盒/燃气灶】
-    show screen clue_choice([3,6],"c1_1_menu1_wrong","c1_1_menu1_correct","温心的死亡原因？")
+    show screen clue_choice([3,6],"c1_1_menu1_wrong","c1_1_menu1_correct",_("温心的死亡原因？"))
     pause
     jump c1_1_menu1
     return
@@ -501,7 +507,7 @@ label c1_1_menu2:
     window hide
     $ quick_menu = False
     # 【选垃圾桶/餐桌/备忘录】
-    show screen clue_choice([1,4,7],"c1_1_menu2_wrong","c1_1_menu2_correct","被忽略的细节？")
+    show screen clue_choice([1,4,7],"c1_1_menu2_wrong","c1_1_menu2_correct",_("被忽略的细节？"))
     pause
     jump c1_1_menu2
     return

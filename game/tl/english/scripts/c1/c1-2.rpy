@@ -2058,3 +2058,35 @@ translate english c1_2_c82329e5:
     # by eye_close def "那种故事……早就过时了。"
     by eye_close def ""
 
+# TODO: Translation updated at 2026-01-23 07:24
+
+translate english strings:
+
+    # game/scripts/c1/c1-2.rpy:50
+    old "12月13日，星期一"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:155
+    old "白一身上的诅咒-1"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:155
+    old "和一种古老的诅咒有相似之处。\n该诅咒有一定概率在极端条件下令人进入假死状态，提供可能的生机。\n诅咒生效后，会产生无法预知的副作用。"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:159
+    old "白一身上的诅咒-2"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:159
+    old "一体双魂，指的是在一具躯体里强行塞入第二个灵魂。\n这是一种由怪异产生的负面效果，会大量消耗躯体的寿命，直至承受不住。\n这个过程不长，大约有两三个月的时间，身体就会完全崩溃。"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:163
+    old "白一身上的诅咒-3"
+    new ""
+
+    # game/scripts/c1/c1-2.rpy:163
+    old "诅咒生效后必然会产生副作用，为防止人类随意钻空子使用诅咒，怪异会清除掉和诅咒相关的记忆。\n反过来说，只要找回被清除的记忆，就可以彻底清除身上的诅咒。"
+    new ""
+

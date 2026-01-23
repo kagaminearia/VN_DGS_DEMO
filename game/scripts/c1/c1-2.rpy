@@ -47,7 +47,7 @@ label c1_2:
     $ quick_menu = False
     window hide
     scene bg_meetingroom with fade
-    show screen tpoinfo("12月13日，星期一","城安局") with dissolve
+    show screen tpoinfo(_("12月13日，星期一"),_("城安局")) with dissolve
     pause 1
     hide screen tpoinfo with dissolve
     window auto
@@ -152,12 +152,21 @@ label c1_2:
     xs "她附着你的身体，会消耗你的生命力，当然，解除之后也会完全消失。"
     by eye_close e "哦……"
     python:
-        persistent.dictList.append(("白一身上的诅咒-1","和一种古老的诅咒有相似之处。\n该诅咒有一定概率在极端条件下令人进入假死状态，提供可能的生机。\n诅咒生效后，会产生无法预知的副作用。"))
-        persistent.dictList.append(("白一身上的诅咒-2","一体双魂，指的是在一具躯体里强行塞入第二个灵魂。\n这是一种由怪异产生的负面效果，会大量消耗躯体的寿命，直至承受不住。\n这个过程不长，大约有两三个月的时间，身体就会完全崩溃。"))
-        persistent.dictList.append(("白一身上的诅咒-3","诅咒生效后必然会产生副作用，为防止人类随意钻空子使用诅咒，怪异会清除掉和诅咒相关的记忆。\n反过来说，只要找回被清除的记忆，就可以彻底清除身上的诅咒。"))
+        persistent.dictList.append((
+            _("白一身上的诅咒-1"),
+            _("和一种古老的诅咒有相似之处。\n该诅咒有一定概率在极端条件下令人进入假死状态，提供可能的生机。\n诅咒生效后，会产生无法预知的副作用。")
+        ))
+        persistent.dictList.append((
+            _("白一身上的诅咒-2"),
+            _("一体双魂，指的是在一具躯体里强行塞入第二个灵魂。\n这是一种由怪异产生的负面效果，会大量消耗躯体的寿命，直至承受不住。\n这个过程不长，大约有两三个月的时间，身体就会完全崩溃。")
+        ))
+        persistent.dictList.append((
+            _("白一身上的诅咒-3"),
+            _("诅咒生效后必然会产生副作用，为防止人类随意钻空子使用诅咒，怪异会清除掉和诅咒相关的记忆。\n反过来说，只要找回被清除的记忆，就可以彻底清除身上的诅咒。")
+        ))
         persistent.dictList = list(set(persistent.dictList))
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
-    $ renpy.notify ("【词典】更新")
+    $ renpy.notify(_("【词典】更新"))
 
     hide xsimg
     show xsimg eye_move smile at char_mid
