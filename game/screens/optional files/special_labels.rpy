@@ -30,7 +30,7 @@ label after_load():
 screen demo:
     add "#000000"
     vbox:
-        style_prefix "disclaimer"
+        style_prefix "demo"
         xalign 0.5
         yalign 0.5
         spacing 20

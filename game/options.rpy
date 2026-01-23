@@ -22,6 +22,11 @@ define config.name = _("DreamyGoldenSnow-DEMO")
 
 define build.name = "DGS-DEMO"
 
+
+# languages ##############################################################
+define config.default_language = "chinese"
+
+
 ## Save directory ##############################################################
 ##
 ## Controls the platform-specific place Ren'Py will place the save files for

@@ -34,10 +34,12 @@ label c0:
     "视线猛地晃动一下，随后，变得明显的呼吸声传来，有些急促。"
     "她似乎比我更加慌张，声音微颤。"
     "但，这到底是什么情况……"
-    by eye_shock e "{size=23}还有人吧？声音很近……{/size}你在哪？出来？"
+    by eye_shock e "{size=23}还有人吧？声音很近……{/size}"
+    scene bg_sickroom with vpunchm
+    by eye_shock o "你在哪？出来？"
     "视野开始摇晃，向左，向右，扫视一圈后又回到原地。"
     me "嗯……"
-    "确认不是错觉后，我含糊地应了声，一时间不知道怎么继续接话。"
+    "确认刚才的都不是错觉后，我含糊地应了声，一时间不知道怎么继续接话。"
     by eye_wacky o "有人是吗，躲哪了，为什么我看不见你？"
     "她的声音稍微提高一些，胸口的心脏也开始用力地快速跳动。"
     "不知道是错觉，还是黑暗和陌生的环境影响，憋闷感逐渐出现，令人难受。"
@@ -51,25 +53,28 @@ label c0:
     "在这一点上，于我而言也差不多。我不敢相信，却似乎又不得不相信。"
     "她说话时，声音就好像从我自己胸口发出，传到外界……"
     by eye_wacky def "……"
-    "她陷入沉默，没有说话，却忽然猛地抽出右手。"
+    "她陷入沉默，没有说话。"
+    "而后，不知道沉默了多久，她猛地从口袋里抽出什么。"
     show blood1 onlayer ontop with Dissolve(0.1)
     stop music
     pause 0.1
     hide blood1 onlayer ontop
     me "呜——"
     "手指紧紧地捏着一根笔杆，而后用力地划过左臂。"
-    me "嘶……"
+    me "啊……？"
     "那不是笔，是小刀。鲜血一点点从皮肤上被割开的缝隙中渗出，伴随着尖锐的刺痛感。"
-    me "你——"
+    me "等等你——"
     show blood1 onlayer ontop with Dissolve(0.1)
     pause 0.1
     hide blood1 onlayer ontop
     "刷。"
     "又是一下。她的动作很快，第二条血口子出现在左手臂上。"
+    "她在干嘛呢？？！！"
     show blood1 onlayer ontop with Dissolve(0.1)
     pause 0.1
     hide blood1 onlayer ontop
     "第三条。"
+    me "嘶……"
     show blood1 onlayer ontop with Dissolve(0.1)
     pause 0.1
     hide blood1 onlayer ontop
@@ -81,14 +86,20 @@ label c0:
 
     scene bg_sickroom with Fade(0.5,0.8,0.5)
     "……"
-    me "……喂……"
-    by eye_wacky e "……还是听得到？"
-    by eye_wacky def "是真的，不是做梦？不是幻觉？这科学吗？"
-    by eye_shock o "我终于疯了？"
+    me "……喂……！！！"
+    "她的动作毫不犹豫，又快又突然，以至于我完全惊呆了，现在才反应过来。"
+    me "你在干嘛呢？！"
+    by eye_still def "……"
+    "她停下动作，却好像也跟我一样迷茫。"
+    by eye_wacky e "…………还是听得到？"
+    me "啊？"
+    by eye_wacky def "是真的……不是做梦？不是幻觉？……这科学吗？"
+    by eye_shock o "………………我终于疯了？"
     "她捏着刀顿了顿，随后把手上的东西塞回口袋，小声地喃喃自语。"
-    by eye_move e "也没听过第二人格能跟主人格同时出现还对话啊……"
+    by eye_move e "也没听过第二人格能跟主人格同时出现，还能对话啊……"
+    me "……"
     me "不……你应该没疯，我应该也很清醒。"
-    by eye_still e "……你到底是谁？"
+    by eye_still e "……那你到底是谁？"
     by eye_still o "不……你到底是什么东西？"
     me "……"
     "怎么还带骂人的？"
@@ -107,7 +118,7 @@ label c0:
     by eye_def o "你不认识我对吧。那你又是谁？\n为什么在我脑子里，你是什么东西，什么新型病毒吗，致幻的？"
     me "……我不知道……"
     by eye_wacky o "哈？？？"
-    me "我不知道……别的我什么都不记得，听到你的声音的时候就在这里了。"
+    me "我不知道啊……别的我什么都不记得，听到你的声音的时候就在这里了。"
     by eye_move e "哦……好吧。{p}我知道了，你比我还没用。"
     me "……"
     "你才没用。"
@@ -121,12 +132,21 @@ label c0:
     me "……"
     me "应该不能……你说话就不能温柔一点吗。"
     by eye_wacky o "面对你这种非要占着别人脑子的东西怎么温柔啊？"
-    "这话……倒也没错。"
+    me "你以为我想啊？怪我有用吗？"
+    by eye_still o "不怪你难道怪我自己吗？你想得美啊。"
+    me "……"
+    "这话……还挺有道理。\n……如果我不是那个被怪的人就更好了。"
     by eye_wacky e "不过看起来你很没用。你应该不会把我弄死吧。"
-    me "……不会，准确地说，我什么都做不了。"
+    me "……不会。准确地说，我什么都做不了。"
     "现在没有任何办法，也只能维持现状——她大概也是这么想，声音也不再那么暴躁。"
-    "花了一段时间接受现实。\n既然我们被强行联系在一起，至少要熟悉一下……"
-    by o "好吧……那还好。\n你叫什么，怎么称呼？"
+    me "嗯……我好像，就只是，必须跟在你身上。"
+
+    scene bg_sickroom with Fade(0.5,1,0.5)
+    "……"
+    "花了一段时间接受现实。"
+    "既然我们被强行联系在一起，至少要熟悉一下……"
+    by eye_def e "啊……好吧……我知道了。"
+    by eye_def o "所以……你叫什么，怎么称呼？"
     $ persistent.inputstyle = 0
     python:
         user = renpy.input("想被称呼为？", length=15)
@@ -136,25 +156,25 @@ label c0:
             user = "喂"
     if user == "喂":
         me "……"
-        by e "不想说就拉倒。无所谓。"
-        by e "啊，对，就叫你“喂”好了。"
-        by o "喂，怎么样？"
+        by eye_still e "不想说就拉倒。无所谓。"
+        by eye_def e "啊，对，就叫你“喂”好了。"
+        by eye_close o "喂，你觉得，怎么样？"
         me "……哦，嗯。"
-        "她自说自话很快，我只好顺从地应声。"
+        "她自说自话很快，我也懒得解释，干脆就顺从地应声。"
     else:
         me "你可以叫我[user]。"
-        by o "哦，那，你好。"
+        by eye_still o "哦，那，你好。"
 
     me "……你呢？"
     by eye_wacky smile "嗯……要不，你可以叫我老板？"
     me "……"
     "这是从哪里学到的称呼……"
     "不过……"
-    me "你是不是叫白一？"
-    by eye_shock o "是……{size=45}嗯？？！！{/size}"
+    me "……你是不是叫白一？"
+    by eye_shock o "嗯……{size=45}嗯？？！！{/size}"
     by eye_shock "你……你说什么？"
     me "我是不是说对了？"
-    by eye_move e "不，没有。你想多了，你都不认识我，怎么可能知道我的名字，瞎说的吧。"
+    by eye_move e "不，没有。你想多了，你都不认识我，怎么可能知道我的名字，瞎说什么。"
     me "真的吗？我觉得我没说错啊。"
     by eye_move def "……"
     by eye_still o "……好吧。你——说得没错……但你怎么会知道？"
@@ -226,7 +246,7 @@ label c0:
     "的确，西平也只是顿了顿，而后加重语气，重复了一遍。"
     hide xpimg
     show xpimg eye_still o at char_mid
-    xp  "你确定吗？"
+    xp "你确定吗？"
     by eye_move def "……"
     by eye_def o "好吧……其实，我好像失忆了，不记得那天发生的事情。"
     hide xpimg
