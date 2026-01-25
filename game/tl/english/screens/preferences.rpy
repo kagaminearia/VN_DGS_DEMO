@@ -4,61 +4,61 @@ translate english strings:
 
     # game/screens/preferences.rpy:30
     old "屏幕显示"
-    new ""
+    new "DISPLAY"
 
     # game/screens/preferences.rpy:31
     old "窗口"
-    new ""
+    new "WINDOW"
 
     # game/screens/preferences.rpy:36
     old "全屏"
-    new ""
+    new "FULLSCREEN"
 
     # game/screens/preferences.rpy:41
     old "跳过"
-    new ""
+    new "SKIP"
 
     # game/screens/preferences.rpy:42
     old "未读文本"
-    new ""
+    new "UNREAD"
 
     # game/screens/preferences.rpy:44
     old "在选项后继续"
-    new ""
+    new "AFTER CHOICE"
 
     # game/screens/preferences.rpy:46
     old "转场"
-    new ""
+    new "TRANSITIONS"
 
     # game/screens/preferences.rpy:51
     old "语言"
-    new ""
+    new "LANGUAGE"
 
     # game/screens/preferences.rpy:66
     old "文字速度"
-    new ""
+    new "TEXT SPEED"
 
     # game/screens/preferences.rpy:69
     old "自动文字速度"
-    new ""
+    new "AUTO-FORWARD SPEED"
 
     # game/screens/preferences.rpy:74
     old "音乐音量"
-    new ""
+    new "MUSIC VOLUME"
 
     # game/screens/preferences.rpy:79
     old "音效音量"
-    new ""
+    new "SOUND VOLUME"
 
     # game/screens/preferences.rpy:83
     old "Test"
-    new ""
+    new "Test"
 
     # game/screens/preferences.rpy:86
     old "声音音量"
-    new ""
+    new "VOICE VOLUME"
 
     # game/screens/preferences.rpy:94
     old "全部静音"
-    new ""
+    new "MUTE ALL"
 

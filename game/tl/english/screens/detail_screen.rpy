@@ -18,9 +18,9 @@ translate english strings:
 
     # game/screens/detail_screen.rpy:98
     old "暂未解锁"
-    new ""
+    new "LOCKED NOW"
 
     # game/screens/detail_screen.rpy:116
     old "目录为空"
-    new ""
+    new "EMPTY LIST"
 

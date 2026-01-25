@@ -59,39 +59,39 @@ init python:
 # Define a narrator character for all default characters
 define narrator = Character(None, callback=click_callback)
 
-define me = Character("我",what_prefix="“",what_suffix="”", callback=click_callback)
+define me = Character(_("我"),what_prefix="“",what_suffix="”", callback=click_callback)
 
-define by = Character("白一", image="bysimg",what_prefix="“",what_suffix="”",callback=combined_callback,cb_name="bys")
-define cx = Character("岑宣",what_prefix="“",what_suffix="”",image='cximg',callback=combined_callback,cb_name="cx")
-define fj = Character("繁锦",what_prefix="“",what_suffix="”",image='fjimg',callback=combined_callback,cb_name="fj")
-define lmm = Character("梁绵绵",what_prefix="“",what_suffix="”",image='lmmimg',callback=combined_callback,cb_name="lmm")
-define lwl = Character("林望龙",what_prefix="“",what_suffix="”",image='lwlimg',callback=combined_callback,cb_name="lwl")
-define sw = Character("姒舞",what_prefix="“",what_suffix="”",image='swimg',callback=combined_callback,cb_name="sw")
-define ty = Character("云天玉",what_prefix="“",what_suffix="”",image='tyimg',callback=combined_callback,cb_name="ty")
-define wf = Character("卫锋",what_prefix="“",what_suffix="”",image='wfimg',callback=combined_callback,cb_name="wf")
-define xl = Character("小蓝",what_prefix="“",what_suffix="”",image='xlimg',callback=combined_callback,cb_name="xl")
-define xp = Character("西平",what_prefix="“",what_suffix="”",image='xpimg',callback=combined_callback,cb_name="xp")
-define xs = Character("西顺",what_prefix="“",what_suffix="”",image='xsimg',callback=combined_callback,cb_name="xs")
-define zb = Character("张班",what_prefix="“",what_suffix="”",image='zbimg',callback=combined_callback,cb_name="zb")
-define unknown = Character("？？",what_prefix="“",what_suffix="”")
-define cg = Character("陈桂",what_prefix="“",what_suffix="”",image='cgimg',callback=combined_callback,cb_name="cg")
-define lg = Character("林郭",what_prefix="“",what_suffix="”",image='lgimg',callback=combined_callback,cb_name="lg")
+define by = Character(_("白一"), image="bysimg",what_prefix="“",what_suffix="”",callback=combined_callback,cb_name="bys")
+define cx = Character(_("岑宣"),what_prefix="“",what_suffix="”",image='cximg',callback=combined_callback,cb_name="cx")
+define fj = Character(_("繁锦"),what_prefix="“",what_suffix="”",image='fjimg',callback=combined_callback,cb_name="fj")
+define lmm = Character(_("梁绵绵"),what_prefix="“",what_suffix="”",image='lmmimg',callback=combined_callback,cb_name="lmm")
+define lwl = Character(_("林望龙"),what_prefix="“",what_suffix="”",image='lwlimg',callback=combined_callback,cb_name="lwl")
+define sw = Character(_("姒舞"),what_prefix="“",what_suffix="”",image='swimg',callback=combined_callback,cb_name="sw")
+define ty = Character(_("云天玉"),what_prefix="“",what_suffix="”",image='tyimg',callback=combined_callback,cb_name="ty")
+define wf = Character(_("卫锋"),what_prefix="“",what_suffix="”",image='wfimg',callback=combined_callback,cb_name="wf")
+define xl = Character(_("小蓝"),what_prefix="“",what_suffix="”",image='xlimg',callback=combined_callback,cb_name="xl")
+define xp = Character(_("西平"),what_prefix="“",what_suffix="”",image='xpimg',callback=combined_callback,cb_name="xp")
+define xs = Character(_("西顺"),what_prefix="“",what_suffix="”",image='xsimg',callback=combined_callback,cb_name="xs")
+define zb = Character(_("张班"),what_prefix="“",what_suffix="”",image='zbimg',callback=combined_callback,cb_name="zb")
+define unknown = Character(_("？？"),what_prefix="“",what_suffix="”")
+define cg = Character(_("陈桂"),what_prefix="“",what_suffix="”",image='cgimg',callback=combined_callback,cb_name="cg")
+define lg = Character(_("林郭"),what_prefix="“",what_suffix="”",image='lgimg',callback=combined_callback,cb_name="lg")
 
-define stu = Character("同学",what_prefix="“",what_suffix="”")
-define stuA = Character("同学A",what_prefix="“",what_suffix="”")
-define stuB = Character("同学B",what_prefix="“",what_suffix="”")
-define stuC = Character("同学C",what_prefix="“",what_suffix="”")
-define fem = Character("女性",what_prefix="“",what_suffix="”")
-define teacher = Character("老师",what_prefix="“",what_suffix="”", callback=click_callback)
+define stu = Character(_("同学"),what_prefix="“",what_suffix="”")
+define stuA = Character(_("同学A"),what_prefix="“",what_suffix="”")
+define stuB = Character(_("同学B"),what_prefix="“",what_suffix="”")
+define stuC = Character(_("同学C"),what_prefix="“",what_suffix="”")
+define fem = Character(_("女性"),what_prefix="“",what_suffix="”")
+define teacher = Character(_("老师"),what_prefix="“",what_suffix="”", callback=click_callback)
 
 define say = Character(None,what_prefix="“",what_suffix="”")
-define bys = Character("白一",what_prefix="“",what_suffix="”",image='byimg',callback=name_callback,cb_name="by")
+define bys = Character(_("白一",what_prefix="“",what_suffix="”",image='byimg',callback=name_callback,cb_name="by")
 
 image side bysimg = LayeredImageProxy("bysimg", Transform(zoom=0.49,xoffset=-250,yoffset=1450))
 
 
-define s_nvl = Character("接收", kind=nvl, callback = notification_callback, cb_name = "receive") # 接收的消息
-define r_nvl = Character("发送", kind=nvl, callback = notification_callback, cb_name = "send") # 发送的消息，主角
+define s_nvl = Character(_("接收"), kind=nvl, callback = notification_callback, cb_name = "receive") # 接收的消息
+define r_nvl = Character(_("发送"), kind=nvl, callback = notification_callback, cb_name = "send") # 发送的消息，主角
 
 define nabox = Image("gui/textbox_2.png",xpos=-310,ypos=20)
 define na = Character(None,what_font="fonts/香萃潮汐宋W15.ttf",what_color="#000000",window_background=nabox)

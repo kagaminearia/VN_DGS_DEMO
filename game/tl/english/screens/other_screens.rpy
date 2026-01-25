@@ -4,11 +4,11 @@ translate english strings:
 
     # game/screens/other_screens.rpy:12
     old "EasyRenPyGui is made by {a=https://github.com/shawna-p}Feniks{/a} {a=https://feniksdev.com/}@feniksdev.com{/a}"
-    new ""
+    new "EasyRenPyGui is made by {a=https://github.com/shawna-p}Feniks{/a} {a=https://feniksdev.com/}@feniksdev.com{/a}"
 
     # game/screens/other_screens.rpy:38
     old "剧本·美术·程序"
-    new ""
+    new "SCRIPT·ART·PROGRAMMING"
 
     # game/screens/other_screens.rpy:39
     old "可食用蓝墨水"
@@ -44,7 +44,7 @@ translate english strings:
 
     # game/screens/other_screens.rpy:56
     old "音乐音效：{a=https://pixabay.com/}Pixabay{/a}，{a=https://otologic.jp/}Otologic{/a}，{a=https://www.fesliyanstudios.com/}Fesliyan Studios{/a}，{a=https://amachamusic.chagasi.com/}Amachamusic{/a}"
-    new "MUSIC AND SOUND：{a=https://pixabay.com/}Pixabay{/a}，{a=https://otologic.jp/}Otologic{/a}，{a=https://www.fesliyanstudios.com/}Fesliyan Studios{/a}，{a=https://amachamusic.chagasi.com/}Amachamusic{/a}"
+    new "MUSIC AND SFX：{a=https://pixabay.com/}Pixabay{/a}，{a=https://otologic.jp/}Otologic{/a}，{a=https://www.fesliyanstudios.com/}Fesliyan Studios{/a}，{a=https://amachamusic.chagasi.com/}Amachamusic{/a}"
 
     # game/screens/other_screens.rpy:61
     old "代码设计：{a=https://lemmasoft.renai.us/forums/viewtopic.php?t=37628&sid=acd42f4aadf6680211571a586cbf4a80}image dissolve transitions{/a}，{a=https://wattson.itch.io/renpy-wave-shader}Ren'py Wave Shader by Wattson{/a}，{a=https://wattson.itch.io/renpy-auto-highlight}Renpy Auto Highlight by Wattson{/a}，{a=https://feniksdev.itch.io/easy-renpy-gui}Easy Ren'Py GUI by Feniks{/a}，{a=https://nighten.itch.io/yet-another-phone-renpy}Phone System by Nighten{/a}"

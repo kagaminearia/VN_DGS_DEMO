@@ -105,6 +105,8 @@ label c0:
     "怎么还带骂人的？"
     "尽管这么说，我也很无奈。"
     "事实上，我什么都不记得，就这样出现在这里，看到她，或者说……跟在她身上。"
+
+    scene bg_sickroom with fade
     by eye_def o "刚刚你在那大叫什么。吓死人啊。"
     me "谁让你一言不合就动手啊……很痛的。"
     by eye_def o "……你能感觉到痛？我的身体你也能感觉？"
@@ -158,8 +160,8 @@ label c0:
         user = user.strip()
         renpy.save_persistent() # ensure the data will not be lost
         if not user:
-            user = "喂"
-    if user == "喂":
+            user = _("喂")
+    if user == _("喂"):
         me "……"
         by eye_still e "不想说就拉倒。无所谓。"
         by eye_def e "啊，对，就叫你“喂”好了。"
