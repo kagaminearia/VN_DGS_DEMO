@@ -4,547 +4,547 @@
 translate english c1_1_efe387c6:
 
     # "西平离开了，房间里只剩白一和西顺面对面。"
-    ""
+    "Xi Ping left, leaving only Bai Yi and Xi Shun face to face in the room."
 
 # game/scripts/c1/c1-1.rpy:6
 translate english c1_1_1ff61c42:
 
     # "两人的眼神相交，都试图从对方的表情中看出些什么。"
-    ""
+    "Their eyes met, each trying to see something from the other's expression."
 
 # game/scripts/c1/c1-1.rpy:7
 translate english c1_1_6ef71767:
 
     # "只是……西顺并不温柔，反而比西平的给白一的感觉还要可怕，可怕得多。"
-    ""
+    "It's just that… Xishun isn't gentle. If anything, she feels even scarier to Bai Yi than Xiping. Much scarier."
 
 # game/scripts/c1/c1-1.rpy:8
 translate english c1_1_36b972b7:
 
     # "白一屏着呼吸，心脏跳得很快，我的心脏也跳得很快。又或者，是我正在清晰感受着她的心跳。"
-    ""
+    "Bai Yi held her breath. Her heart was racing, and so was mine — or maybe I was only feeling hers."
 
 # game/scripts/c1/c1-1.rpy:9
 translate english c1_1_dab55d5b:
 
     # me "那个……她是什么意思？难道她知道什么……？"
-    me ""
+    me "That... what does she mean? Does she know something...?"
 
 # game/scripts/c1/c1-1.rpy:10
 translate english c1_1_654d4516:
 
     # "我有些不安地开口，白一则是捏紧了手掌。"
-    ""
+    "I spoke uneasily, while Bai Yi clenched her palms"
 
 # game/scripts/c1/c1-1.rpy:12
 translate english c1_1_2ba3d747:
 
     # "她被西顺盯得有些看不下去，稍稍移开了视线，落在干净粗糙的桌面上。"
-    ""
+    "She was a little uncomfortable with Xi Shun staring at her, so she shifted her gaze slightly and looked at the clean, rough tabletop."
 
 # game/scripts/c1/c1-1.rpy:13
 translate english c1_1_d4f6cc26:
 
     # by eye_wacky e "我，不明白你在——"
-    by eye_wacky e ""
+    by eye_wacky e "I, I don't know what you..."
 
 # game/scripts/c1/c1-1.rpy:16
 translate english c1_1_85a3fa93:
 
     # xs "嗯，我确实知道一些东西，你不想问吗？"
-    xs ""
+    xs "Well, I do know something, don't you want to ask?"
 
 # game/scripts/c1/c1-1.rpy:18
 translate english c1_1_a885f84e:
 
     # by eye_shock o "什——"
-    by eye_shock o ""
+    by eye_shock o "Wha..."
 
 # game/scripts/c1/c1-1.rpy:19
 translate english c1_1_09881574:
 
     # "听到这指向性极强的话，白一忘了反驳，也忘了视线的逃避。"
-    ""
+    "The words were too pointed. Bai Yi forgot to refute them, forgot to look away from her eyes."
 
 # game/scripts/c1/c1-1.rpy:20
 translate english c1_1_9ba5a437:
 
     # "她猛地抬起头，瞪大眼睛。"
-    ""
+    "Her head jerked up, eyes wide."
 
 # game/scripts/c1/c1-1.rpy:21
 translate english c1_1_7ef3a45c:
 
     # me "她，她是……"
-    me ""
+    me "She, she is..."
 
 # game/scripts/c1/c1-1.rpy:24
 translate english c1_1_1225023a:
 
     # xs "嗯，我听得见那个声音，在你身上。"
-    xs ""
+    xs "Yeah, I can hear that voice, from your body."
 
 # game/scripts/c1/c1-1.rpy:25
 translate english c1_1_f79361a2:
 
     # xs "并且，刚刚也还在和你说话。是说，‘看见了今天的日期’？是吗？"
-    xs ""
+    xs "Also, it was speaking to you just now. About...today's date, right?"
 
 # game/scripts/c1/c1-1.rpy:26
 translate english c1_1_ec1d91ef:
 
     # by eye_shock def "……"
-    by eye_shock def ""
+    by eye_shock def "..."
 
 # game/scripts/c1/c1-1.rpy:27
 translate english c1_1_d6597a81:
 
     # "{b}……她真的听得见！！{/b}"
-    ""
+    "{b}...She is really able to hear!!{/b}"
 
 # game/scripts/c1/c1-1.rpy:28
 translate english c1_1_97248809:
 
     # "由西顺亲口说出来，下定论，白一愣住，不知道该说什么。"
-    ""
+    "When Xishun said it herself and concluded, Bai Yi was stunned upon hearing it, at a loss for words."
 
 # game/scripts/c1/c1-1.rpy:29
 translate english c1_1_7425316e:
 
     # "不知道是应该为这脑海里的声音不是幻觉而放心，还是应该为有人窥见这秘密而惊慌。"
-    ""
+    "Between relief that the voice was no hallucination and alarm that her secret had been seen, she was caught in a daze."
 
 # game/scripts/c1/c1-1.rpy:30
 translate english c1_1_a3747f67:
 
     # "但，明明是冬天，白一却出了一身的汗。她僵在原地，背部有些微微发麻。"
-    ""
+    "Yet it was deep winter, and Bai Yi was breaking out in a hot sweat. She stood rigidly, a faint numbness creeping up her spine."
 
 # game/scripts/c1/c1-1.rpy:31
 translate english c1_1_ec1d91ef_1:
 
     # by eye_shock def "……"
-    by eye_shock def ""
+    by eye_shock def "..."
 
 # game/scripts/c1/c1-1.rpy:32
 translate english c1_1_1a0918aa:
 
     # by eye_move e "啊，呃……"
-    by eye_move e ""
+    by eye_move e "Ah, emm..."
 
 # game/scripts/c1/c1-1.rpy:33
 translate english c1_1_2e3a6046:
 
     # "白一的脑子都乱成了浆糊，手指下意识又抠住左臂的伤口，感受到不断的刺痛后才停下来。"
-    ""
+    "Distracted, Bai Yi found her fingers returning to the wound on her left arm. She picked at it mechanically until a sharp, clear pain made her stop."
 
 # game/scripts/c1/c1-1.rpy:36
 translate english c1_1_5c24f7ff:
 
     # xs "所以，要不要解释一下，你身上到底发生了什么？"
-    xs ""
+    xs "So, would you like to explain, what happened to you?"
 
 # game/scripts/c1/c1-1.rpy:37
 translate english c1_1_2b1e278b:
 
     # by eye_def o "……我什么都不知道。真的。"
-    by eye_def o ""
+    by eye_def o "...I knew nothing, really."
 
 # game/scripts/c1/c1-1.rpy:38
 translate english c1_1_dd8a6f44:
 
     # "短暂的怔愣后，白一敛去表情，强打起气势，找回跟她说话时的主动权。"
-    ""
+    "After a brief daze, Bai Yi composed herself, gathered her resolve, and seized the initiative in the conversation."
 
 # game/scripts/c1/c1-1.rpy:39
 translate english c1_1_6ba59162:
 
     # by eye_still o "是你们让我留在这里，应该给我解释才对吧。"
-    by eye_still o ""
+    by eye_still o "You are the one who asked me to stay here, so it is you who should give me an explanation, right?"
 
 # game/scripts/c1/c1-1.rpy:42
 translate english c1_1_2058d750:
 
     # xs "是啊，是因为你和一件案子联系上了，所以你才会在这里。"
-    xs ""
+    xs "Well, true. You are here because you were connected to a case."
 
 # game/scripts/c1/c1-1.rpy:43
 translate english c1_1_126cbf51:
 
     # xs "所以我们需要了解你的情况。"
-    xs ""
+    xs "So we need to know the information from you."
 
 # game/scripts/c1/c1-1.rpy:44
 translate english c1_1_cc831618:
 
     # by eye_def o "都说了我真的不知道，醒来之后就躺在那里。"
-    by eye_def o ""
+    by eye_def o "I said I really didn’t know, I just lay there after I woke up."
 
 # game/scripts/c1/c1-1.rpy:45
 translate english c1_1_8a5e9e46:
 
     # by eye_def e "既然你说你能听见，那你直接跟她说不就好了。"
-    by eye_def e ""
+    by eye_def e "Also, since you said you can hear her, just talk to her."
 
 # game/scripts/c1/c1-1.rpy:46
 translate english c1_1_2e6f0d40:
 
     # xs "哦，可以这样么？"
-    xs ""
+    xs "Oh, can I do that?"
 
 # game/scripts/c1/c1-1.rpy:47
 translate english c1_1_77d905c1:
 
     # by eye_still o "废话。"
-    by eye_still o ""
+    by eye_still o "You don't say."
 
 # game/scripts/c1/c1-1.rpy:50
 translate english c1_1_7fddfc6d:
 
     # "西顺又笑了，她换了个姿势，靠坐在椅子上。"
-    ""
+    "Xi Shun smiled again, changed her posture, and leaned back in the chair."
 
 # game/scripts/c1/c1-1.rpy:51
 translate english c1_1_d92a6465:
 
     # "不知道是不是错觉，我似乎能感觉到，她现在不是看着白一，而是我。"
-    ""
+    "I don't know if it's an illusion, but I seem to feel that she's not looking at Bai Yi now, but at me."
 
 # game/scripts/c1/c1-1.rpy:54
 translate english c1_1_c686e249:
 
     # xs "这位……同志？怎么称呼？"
-    xs ""
+    xs "Excuse me... How should I address you?"
 
 # game/scripts/c1/c1-1.rpy:55
 translate english c1_1_ff4caefa:
 
     # by eye_wacky e "很好，现在这里有两个人疯了。"
-    by eye_wacky e ""
+    by eye_wacky e "Perfect. Now we have two crazy people here."
 
 # game/scripts/c1/c1-1.rpy:56
 translate english c1_1_97007715:
 
     # "随着白一的冷笑，我和西顺在这十足奇怪的场景下，开始了完全不科学，也不符合常理的对话。"
-    ""
+    "As Bai Yi let out a cold laugh, Xi Shun and I began a conversation in that utterly bizarre scene — a conversation that defied all logic and reason."
 
 # game/scripts/c1/c1-1.rpy:57
 translate english c1_1_7d9f1a0c:
 
     # "然而，不管是我还是白一，似乎都没法给出让西顺满意的答案，询问也在几个“不知道”后陷入停滞状态。"
-    ""
+    "However, neither Bai Yi nor I could give Xi Shun a satisfactory answer, and after several “I don’t know”s, the questioning stalled."
 
 # game/scripts/c1/c1-1.rpy:62
 translate english c1_1_54cad7fd:
 
     # by eye_def e "对了，我能问个问题吗。"
-    by eye_def e ""
+    by eye_def e "Ok, then can I ask a question?"
 
 # game/scripts/c1/c1-1.rpy:63
 translate english c1_1_e5c45dae:
 
     # xs "嗯？你说。"
-    xs ""
+    xs "Yeah? Say."
 
 # game/scripts/c1/c1-1.rpy:64
 translate english c1_1_dacec698:
 
     # by eye_def o "你知道讲事情的时候最讨厌哪种人吗？"
-    by eye_def o ""
+    by eye_def o "Do you know what kind of person you hate the most when talking about things?"
 
 # game/scripts/c1/c1-1.rpy:65
 translate english c1_1_a25391f1:
 
     # xs "……嗯？"
-    xs ""
+    xs "...Well?"
 
 # game/scripts/c1/c1-1.rpy:66
 translate english c1_1_592fc5d9:
 
     # by eye_def o "就是明明有话要说，却非要遮遮掩掩，故意说话只说一半的人。"
-    by eye_def o ""
+    by eye_def o "They are people who have something to say but choose to hide half of it."
 
 # game/scripts/c1/c1-1.rpy:69
 translate english c1_1_a4f22e8f:
 
     # xs "……如果我没猜错，你是说我吗？"
-    xs ""
+    xs "...If I'm not mistaken, are you talking about me?"
 
 # game/scripts/c1/c1-1.rpy:70
 translate english c1_1_b4c85490:
 
     # by eye_still o "很显然，是的。"
-    by eye_still o ""
+    by eye_still o "Obvious."
 
 # game/scripts/c1/c1-1.rpy:73
 translate english c1_1_df6bf5ff:
 
     # xs "噗嗤。"
-    xs ""
+    xs "Heh, right."
 
 # game/scripts/c1/c1-1.rpy:74
 translate english c1_1_6dad9c34:
 
     # "西顺被逗笑了，而后一边无奈地揉了揉太阳穴，一边开口。"
-    ""
+    "Amused, Xi Shun rubbed her temples helplessly before speaking."
 
 # game/scripts/c1/c1-1.rpy:77
 translate english c1_1_24e84da5:
 
     # xs "我明白你的意思，也没有不想跟你说，之前只是还有别的因素要考虑。"
-    xs ""
+    xs "I get what you’re saying, and it’s not that I didn’t want to talk to you about it. I just had other factors to consider at the time."
 
 # game/scripts/c1/c1-1.rpy:78
 translate english c1_1_2f2fa818:
 
     # by eye_move def "……哦。"
-    by eye_move def ""
+    by eye_move def "..Well."
 
 # game/scripts/c1/c1-1.rpy:79
 translate english c1_1_a94bf788:
 
     # "西顺并没有生气，意外的好态度让白一都有些愣神，好一会才闷闷地应了一声。"
-    ""
+    "Xi Shun remained calm, surprising Bai Yi with her composure. After a pause, Bai Yi responded numbly."
 
 # game/scripts/c1/c1-1.rpy:82
 translate english c1_1_2d7d681c:
 
     # xs "就像之前说的，特调组表面上是处理一些危险的特大案件，实际上还会处理一些……不那么科学的东西。"
-    xs ""
+    xs "As mentioned earlier, while the SIU officially handles high-risk major cases, its true mandate extends to matters of a... less scientific nature."
 
 # game/scripts/c1/c1-1.rpy:85
 translate english c1_1_2aa86515:
 
     # xs "嗯，我们把这些事统称为“怪异”。"
-    xs ""
+    xs "Well, we collectively refer to these things as “GuaiYi.”"
 
 # game/scripts/c1/c1-1.rpy:91
 translate english c1_1_15d639f4:
 
     # by eye_move o "哦哦，说你呢，不科学的东西，都怪你。"
-    by eye_move o ""
+    by eye_move o "Oh, I see. Look who's here, the Un-scientific Phenomenon. It's all your fault, isn't it?"
 
 # game/scripts/c1/c1-1.rpy:92
 translate english c1_1_aae085e8:
 
     # "知道能被西顺听见后，白一装也不装了，当着她说话的面就开始把怒火放在我身上。"
-    ""
+    "Knowing that Xi Shun could hear her, Bai Yi stopped pretending and started to vent her anger on me in front of her."
 
 # game/scripts/c1/c1-1.rpy:93
 translate english c1_1_5cb5392f:
 
     # me "……喂，我也很无辜。"
-    me ""
+    me "...Hey, I'm innocent too."
 
 # game/scripts/c1/c1-1.rpy:94
 translate english c1_1_b41f9f74:
 
     # by eye_move e "呵呵。"
-    by eye_move e ""
+    by eye_move e "Heh."
 
 # game/scripts/c1/c1-1.rpy:97
 translate english c1_1_0a7d8d88:
 
     # xs "刚刚我们在谈话中已经确认了，你现在是清醒的，你身上的怪异特性也没有对你本人的身体产生负面影响。"
-    xs ""
+    xs "We have just confirmed in our conversation that you are awake now, and the odd things have not had a negative impact on your body."
 
 # game/scripts/c1/c1-1.rpy:105
 translate english c1_1_ad60d512:
 
     # xs "嗯，至少目前没有。"
-    xs ""
+    xs "Well, at least now."
 
 # game/scripts/c1/c1-1.rpy:106
 translate english c1_1_4eff4978:
 
     # "西顺中肯地点点头。"
-    ""
+    "Xi Shun nodded in agreement."
 
 # game/scripts/c1/c1-1.rpy:107
 translate english c1_1_1bff801b:
 
     # by eye_def o "这你们也能确认出来？"
-    by eye_def o ""
+    by eye_def o "ou can actually confirm that?"
 
 # game/scripts/c1/c1-1.rpy:110
 translate english c1_1_538063ef:
 
     # xs "是啊。就像我能听到你们说话，总有你不知道的办法。"
-    xs ""
+    xs "Yes. Like I can hear you guys, there's always a way you don't know"
 
 # game/scripts/c1/c1-1.rpy:111
 translate english c1_1_c1f8b70c:
 
     # xs "总之，要确认你是安全的，我们才能继续。"
-    xs ""
+    xs "Anyway, we need to make sure you are safe before we can continue."
 
 # game/scripts/c1/c1-1.rpy:112
 translate english c1_1_06fde250:
 
     # by eye_wacky def "……哦。"
-    by eye_wacky def ""
+    by eye_wacky def "...Oh."
 
 # game/scripts/c1/c1-1.rpy:113
 translate english c1_1_328c51ce:
 
     # "白一翻了个白眼，但情绪没刚才那么激烈了。"
-    ""
+    "Bai Yi rolled her eyes, but her emotion was not as intense as before."
 
 # game/scripts/c1/c1-1.rpy:114
 translate english c1_1_d9dacfe2:
 
     # "也许是知道了西顺之前一直含糊其辞，现在才进入正题的原因……"
-    ""
+    "Maybe she knows why Xishun was vague before and is now being more direct."
 
 # game/scripts/c1/c1-1.rpy:115
 translate english c1_1_c6e68c63:
 
     # xs "特调组大概就是这些，至于你身上的事情，目前我们了解的也不够多，不过——"
-    xs ""
+    xs "That's all for SIU. As for what happened to you, we don’t know enough at the moment, but..."
 
 # game/scripts/c1/c1-1.rpy:118
 translate english c1_1_e04e71d4:
 
     # "西顺留下一个恰到好处的停顿，又深深地看了白一一眼。"
-    ""
+    "Xi Shun left a well-timed pause, and then looked at Bai Yi deeply."
 
 # game/scripts/c1/c1-1.rpy:121
 translate english c1_1_7656d56e:
 
     # xs "12月11日下午，民案组接到报案，在晟欧路的一栋民房发现了两具尸体。"
-    xs ""
+    xs "On the afternoon of December 11, the Civil Affairs Unit received a report that two bodies were found in a private house on Sheng'ou Road."
 
 # game/scripts/c1/c1-1.rpy:122
 translate english c1_1_c0cff916:
 
     # by eye_def o "哦。"
-    by eye_def o ""
+    by eye_def o "Oh."
 
 # game/scripts/c1/c1-1.rpy:123
 translate english c1_1_41c8eb73:
 
     # "跟我有什么关系？\n白一大概率是想这么说。"
-    ""
+    "What does it have to do with me?\n Bai Yi probably wanted to say that."
 
 # game/scripts/c1/c1-1.rpy:126
 translate english c1_1_209304ed:
 
     # xs "其中一具，是你的尸体。"
-    xs ""
+    xs "One of them, is your corpse."
 
 # game/scripts/c1/c1-1.rpy:127
 translate english c1_1_bc63e250:
 
     # by eye_wacky e "…………谁的？"
-    by eye_wacky e ""
+    by eye_wacky e ".........Whose corpse?"
 
 # game/scripts/c1/c1-1.rpy:129
 translate english c1_1_733bb018:
 
     # "白一忍不住抬手，揉了揉耳朵，以为自己听到的是幻觉。"
-    ""
+    "Bai Yi couldn't help but raise her hand and rub his ears, thinking that what she heard was an illusion."
 
 # game/scripts/c1/c1-1.rpy:132
 translate english c1_1_097deac3:
 
     # xs "嗯，是你的尸体。当时，已经确认了没有生命体征。"
-    xs ""
+    xs "Yes, it was your corpse. At that time, it was confirmed that there were no vital signs."
 
 # game/scripts/c1/c1-1.rpy:135
 translate english c1_1_dc14f2c5:
 
     # xs "他们认为是意外死亡，所以送回来之后也没有进行多余的检查，只是等通知家属来认领。"
-    xs ""
+    xs "They believed it was an accidental death, so after returning the body, they conducted no further checks and simply waited to notify the family to claim it."
 
 # game/scripts/c1/c1-1.rpy:136
 translate english c1_1_5a76043f:
 
     # xs "只是，民案组的流程还没走完，你半夜突然就醒过来了。"
-    xs ""
+    xs "But the CAU's process was not yet completed, and you suddenly woke up in the middle of the night."
 
 # game/scripts/c1/c1-1.rpy:139
 translate english c1_1_fc84d9d9:
 
     # xs "或者说，重新活过来了。"
-    xs ""
+    xs "In other words, you came back to life again."
 
 # game/scripts/c1/c1-1.rpy:140
 translate english c1_1_4bf5833d:
 
     # by eye_wacky o "……我去。"
-    by eye_wacky o ""
+    by eye_wacky o "...What the..."
 
 # game/scripts/c1/c1-1.rpy:141
 translate english c1_1_1dcc6168:
 
     # "白一不禁想到之前突然打开的房门和爆发的尖叫声。"
-    ""
+    "Bai Yi couldn't help but think of the suddenly opened door and the erupting scream."
 
 # game/scripts/c1/c1-1.rpy:142
 translate english c1_1_27cdf0a8:
 
     # me "……这合理吗？"
-    me ""
+    me "...Does this even make sense?"
 
 # game/scripts/c1/c1-1.rpy:143
 translate english c1_1_f4937c54:
 
     # by eye_wacky e "我也想知道，这合理吗？？"
-    by eye_wacky e ""
+    by eye_wacky e "I also want to know. Is this supposed to make sense?"
 
 # game/scripts/c1/c1-1.rpy:146
 translate english c1_1_50fc7786:
 
     # xs "嗯，把我们的值班小姐姐吓得够呛……之后的事你都知道了。"
-    xs ""
+    xs "Well, it scared our lady on duty so much... you know what happened after that."
 
 # game/scripts/c1/c1-1.rpy:149
 translate english c1_1_a80d475e:
 
     # xs "搞得我大半夜的还要加班，被拉过来救场呢。"
-    xs ""
+    xs "As a result, I had to work overtime in the middle of the night, and I was pulled over to rescue the scene."
 
 # game/scripts/c1/c1-1.rpy:150
 translate english c1_1_3e0ced22:
 
     # by eye_wacky e "她吓得够呛？我才要被吓死了。哦，刚好，死了也不用搬运，直接躺下完事。"
-    by eye_wacky e ""
+    by eye_wacky e "Is she scared enough? I’m the one about to die. Great. No need to carry me then. Just leave me here and get it over with."
 
 # game/scripts/c1/c1-1.rpy:153
 translate english c1_1_df8d8351:
 
     # "冷冷地抱怨完，白一没再开口，只是沉默地保持之前的姿势。"
-    ""
+    "After complaining coldly, Bai Yi didn't speak again and just kept her previous posture in silence."
 
 # game/scripts/c1/c1-1.rpy:154
 translate english c1_1_ae7942c3:
 
     # "她的呼吸很急促，却被控制得极轻。"
-    ""
+    "Her breathing was rapid, but she kept it very light."
 
 # game/scripts/c1/c1-1.rpy:155
 translate english c1_1_acdd8a95:
 
     # "如果不是我能够感觉到她的气息，怕是要以为那些所谓“活过来”都是胡话。"
-    ""
+    "If I hadn't been able to feel her breath, I would have thot that all the so-called “coming back to life” was nonsense."
 
 # game/scripts/c1/c1-1.rpy:156
 translate english c1_1_f1a2daf6:
 
     # "……真的不是胡话吗？"
-    ""
+    "...Is it really not nonsense?"
 
 # game/scripts/c1/c1-1.rpy:157
 translate english c1_1_c66e9d3f:
 
     # "我完全理解白一的反应。就算事情摆在眼前，就算解释无比合理，还是很难不去怀疑，甚至觉得眼前的一切才是虚假的幻觉。"
-    ""
+    "I fully understand Bai Yi's reaction. Even with the facts staring you in the face and the most logical explanation laid out before you — it’s hard not to doubt. Sometimes it all feels like a carefully crafted illusion."
 
 # game/scripts/c1/c1-1.rpy:158
 translate english c1_1_2906f67c:
 
     # "西顺盯着白一，看她似乎冷静下来一些才继续说话。"
-    ""
+    "Xi Shun is staring at Bai Yi, until she seems to calm down. Then she continue speaking."
 
 # game/scripts/c1/c1-1.rpy:162
 translate english c1_1_a6a90020:
