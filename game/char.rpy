@@ -85,7 +85,7 @@ define fem = Character(_("女性"),what_prefix="“",what_suffix="”")
 define teacher = Character(_("老师"),what_prefix="“",what_suffix="”", callback=click_callback)
 
 define say = Character(None,what_prefix="“",what_suffix="”")
-define bys = Character(_("白一",what_prefix="“",what_suffix="”",image='byimg',callback=name_callback,cb_name="by")
+define bys = Character(_("白一"),what_prefix="“",what_suffix="”",image='byimg',callback=name_callback,cb_name="by")
 
 image side bysimg = LayeredImageProxy("bysimg", Transform(zoom=0.49,xoffset=-250,yoffset=1450))
 

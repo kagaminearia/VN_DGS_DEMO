@@ -1285,3 +1285,10 @@ translate english strings:
     old "除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。"
     new "Beyond public rhetoric, the unit’s real job is handling incidents that defy common sense—hence the name Supernatural Incident Unit. Most of the time, major cases are used as cover to keep these events from public view."
 
+
+translate english strings:
+
+    # game/scripts/c0/c0.rpy:163
+    old "喂"
+    new "Hey"
+
