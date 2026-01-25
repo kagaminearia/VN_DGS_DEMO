@@ -24,155 +24,155 @@ translate english strings:
 
     # game/scripts/detail_list.rpy:1
     old "床上的被子已经被掀开，堆在一边。床单很旧，有不少补丁，但很干净。枕头上有两个人躺过的痕迹。枕头下有一个小盒子。"
-    new ""
+    new "The quilt was pushed aside; the old, patched sheets were clean. Two indentations marked the pillow, beneath which lay a small box"
 
     # game/scripts/detail_list.rpy:1
     old "灶台-燃气灶"
-    new ""
+    new "Counter-Gas Stove"
 
     # game/scripts/detail_list.rpy:1
     old "有长时间开过火的痕迹，燃气灶老旧，燃气喷嘴处有异物堵塞。"
-    new ""
+    new "“The old gas stove shows signs of prolonged burning, with debris blocking the gas nozzle.”"
 
     # game/scripts/detail_list.rpy:1
     old "灶台-垃圾桶"
-    new ""
+    new "Counter-Garbage Bin"
 
     # game/scripts/detail_list.rpy:1
     old "垃圾桶空空如也，没有袋子。"
-    new ""
+    new "The trash cans were empty, no bags."
 
     # game/scripts/detail_list.rpy:1
     old "洗手间-窗户"
-    new ""
+    new "Bathroom-window"
 
     # game/scripts/detail_list.rpy:1
     old "被百叶窗盖住的窗户关闭，被人上了锁。"
-    new ""
+    new "The shuttered windows were closed and locked."
 
     # game/scripts/detail_list.rpy:1
     old "储物柜-药盒"
-    new ""
+    new "Locker-Medicine Box"
 
     # game/scripts/detail_list.rpy:1
     old "透明药盒里有两瓶一样的感冒药，其中一瓶打开过，另一瓶还未拆封。"
-    new ""
+    new "Inside the transparent medicine box are two identical cold-medicine bottles, one opened and one unopened."
 
     # game/scripts/detail_list.rpy:1
     old "门口-备忘录"
-    new ""
+    new "Doorway-Memo"
 
     # game/scripts/detail_list.rpy:1
     old "温心的日程表，贴在门边的墙上。纸上的字迹用力，不好看，却很整齐。便签纸有些陈旧，边缘发黄，看起来已经用了很久。"
-    new ""
+    new "Wen Xin’s schedule hangs beside the door, written in firm, plain but tidy handwriting on old note paper with yellowed edges, worn from long use."
 
     # game/scripts/detail_list.rpy:50
     old "白一"
-    new ""
+    new "Bai Yi"
 
     # game/scripts/detail_list.rpy:50
     old "岑宣"
-    new ""
+    new "CenXuan"
 
     # game/scripts/detail_list.rpy:50
     old "繁锦"
-    new ""
+    new "FanJin"
 
     # game/scripts/detail_list.rpy:50
     old "梁绵绵"
-    new ""
+    new "Liang MianMain"
 
     # game/scripts/detail_list.rpy:50
     old "林望龙"
-    new ""
+    new "Lin WangLong"
 
     # game/scripts/detail_list.rpy:50
     old "姒舞"
-    new ""
+    new "SiWu"
 
     # game/scripts/detail_list.rpy:50
     old "天玉"
-    new ""
+    new "TianYu"
 
     # game/scripts/detail_list.rpy:50
     old "卫锋"
-    new ""
+    new "WeiFeng"
 
     # game/scripts/detail_list.rpy:50
     old "温心"
-    new ""
+    new "Wen Xin"
 
     # game/scripts/detail_list.rpy:50
     old "西平"
-    new ""
+    new "Xi Ping"
 
     # game/scripts/detail_list.rpy:50
     old "西顺"
-    new ""
+    new "Xi Shun"
 
     # game/scripts/detail_list.rpy:50
     old "张班"
-    new ""
+    new "ZhangBan"
 
     # game/scripts/detail_list.rpy:65
     old "女性 17岁"
-    new ""
+    new "Fem, Age 17"
 
     # game/scripts/detail_list.rpy:65
     old "高二6班 普通班"
-    new ""
+    new "Class 6, Grade 11, Regular Class"
 
     # game/scripts/detail_list.rpy:65
     old "高二9班 精英班"
-    new ""
+    new "Class 9, Grade 11, Honors Class"
 
     # game/scripts/detail_list.rpy:65
     old "女性 25岁"
-    new ""
+    new "Fem, Age 25"
 
     # game/scripts/detail_list.rpy:65
     old "心理辅导教师"
-    new ""
+    new "School Counselor"
 
     # game/scripts/detail_list.rpy:65
     old "女性 15岁"
-    new ""
+    new "Fem, Age 15"
 
     # game/scripts/detail_list.rpy:65
     old "高二8班 特长班"
-    new ""
+    new "Class 9, Grade 11, Specialized Class"
 
     # game/scripts/detail_list.rpy:65
     old "男性 16岁"
-    new ""
+    new "Male, Age 16"
 
     # game/scripts/detail_list.rpy:65
     old "高二7班 特长班"
-    new ""
+    new "Class 7, Grade 11, Specialized Class"
 
     # game/scripts/detail_list.rpy:65
     old "女性 16岁"
-    new ""
+    new "Fem, Age 16"
 
     # game/scripts/detail_list.rpy:65
     old "女性 26岁"
-    new ""
+    new "Fem, Age 26"
 
     # game/scripts/detail_list.rpy:65
     old "城安局 编外人员"
-    new ""
+    new "CSA, Non-regular staff"
 
     # game/scripts/detail_list.rpy:65
     old "女性 24岁"
-    new ""
+    new "Fem, Age 24"
 
     # game/scripts/detail_list.rpy:65
     old "城安局 特调组"
-    new ""
+    new "CSA, SIU"
 
     # game/scripts/detail_list.rpy:65
     old "高二6班 班主任"
-    new ""
+    new "Class 6, Grade 11, Class Teacher"
 
     # game/scripts/detail_list.rpy:80
     old "没存在感，讨厌麻烦"

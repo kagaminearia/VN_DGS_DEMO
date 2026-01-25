@@ -4,5 +4,5 @@ translate english strings:
 
     # game/options.rpy:17
     old "DreamyGoldenSnow-DEMO"
-    new ""
+    new "DreamyGoldenSnow-DEMO"
 
