@@ -4,649 +4,649 @@
 translate english c1_2_8a5ffef2:
 
     # me "检查结果明天才出来。"
-    me ""
+    me "The test results will be out tomorrow."
 
 # game/scripts/c1/c1-2.rpy:4
 translate english c1_2_7ff6ebfa:
 
     # by eye_def o "啥？我知道啊？"
-    by eye_def o ""
+    by eye_def o "Huh? I know."
 
 # game/scripts/c1/c1-2.rpy:5
 translate english c1_2_1ed3ed8b:
 
     # me "呃……我是想说……明天才知道，你现在不用这么，紧张？"
-    me ""
+    me "Uh... I mean... we'll know tomorrow, so you don't need to be so, nervous?"
 
 # game/scripts/c1/c1-2.rpy:6
 translate english c1_2_29c5bb1a:
 
     # by eye_def def "……"
-    by eye_def def ""
+    by eye_def def "..."
 
 # game/scripts/c1/c1-2.rpy:7
 translate english c1_2_d590da29:
 
     # by eye_wacky e "哈？你觉得我在紧张吗？"
-    by eye_wacky e ""
+    by eye_wacky e "Huh? Do you think I'm nervous?"
 
 # game/scripts/c1/c1-2.rpy:8
 translate english c1_2_d9d5e071:
 
     # me "不是吗，那你为什么一直在床上滚来滚去。"
-    me ""
+    me "Isn't it? Then why have you been tossing and turning in bed?"
 
 # game/scripts/c1/c1-2.rpy:9
 translate english c1_2_2aa40531:
 
     # me "能别转了么，弄得我头很晕啊……"
-    me ""
+    me "Can you stop spinning? It's making me dizzy..."
 
 # game/scripts/c1/c1-2.rpy:10
 translate english c1_2_ef2ffdac:
 
     # by eye_close o "不能，忍着。"
-    by eye_close o ""
+    by eye_close o "No. Bear it."
 
 # game/scripts/c1/c1-2.rpy:11
 translate english c1_2_1834d120:
 
     # me "……"
-    me ""
+    me "..."
 
 # game/scripts/c1/c1-2.rpy:12
 translate english c1_2_ab59d555:
 
     # me "你——"
-    me ""
+    me "Hey you..."
 
 # game/scripts/c1/c1-2.rpy:13
 translate english c1_2_fb8744e8:
 
     # by eye_close e "我没紧张。"
-    by eye_close e ""
+    by eye_close e "I am not nervous."
 
 # game/scripts/c1/c1-2.rpy:14
 translate english c1_2_ee1aad4f:
 
     # "白一飞快地接话。"
-    ""
+    "Bai Yi quickly took over the conversation."
 
 # game/scripts/c1/c1-2.rpy:15
 translate english c1_2_c75b66b3:
 
     # me "哦……好吧，你没紧张。"
-    me ""
+    me "Oh...Okay? You are not nervous, ok."
 
 # game/scripts/c1/c1-2.rpy:16
 translate english c1_2_04a5d09e:
 
     # me "不过，你是不是忘了我能感觉到——"
-    me ""
+    me "But have you forgotten that I can feel—"
 
 # game/scripts/c1/c1-2.rpy:17
 translate english c1_2_18d8c34d:
 
     # by eye_shock o "{size=45}都说了你感觉错了！{/size}"
-    by eye_shock o ""
+    by eye_shock o "{size=45}I told you that you were wrong!{/size}"
 
 # game/scripts/c1/c1-2.rpy:18
 translate english c1_2_ec1d91ef:
 
     # by eye_shock def "……"
-    by eye_shock def ""
+    by eye_shock def "..."
 
 # game/scripts/c1/c1-2.rpy:19
 translate english c1_2_6fda882b:
 
     # by eye_close o "{size=23}我只是，现在想起来，还是觉得很不真实罢了。{/size}"
-    by eye_close o ""
+    by eye_close o "{size=23}I just… when I think about it now, it still doesn’t feel real.{/size}"
 
 # game/scripts/c1/c1-2.rpy:20
 translate english c1_2_b636be02:
 
     # "有人死了，曾经死过，杀人嫌疑……\n一切都不真实。"
-    ""
+    "Someone died. I had died. I was suspected of murder...\nEverything was unreal."
 
 # game/scripts/c1/c1-2.rpy:21
 translate english c1_2_d8e85dd1:
 
     # me "嗯……也对。"
-    me ""
+    me "Well...You're right."
 
 # game/scripts/c1/c1-2.rpy:22
 translate english c1_2_737efe6d:
 
     # "白一在床上打滚的动作停下后，房间变得很安静，只有她的心脏在慢慢跳动。"
-    ""
+    "After Bai Yi stopped tossing on the bed, the room fell quiet, filled only with the slow beat of her heart."
 
 # game/scripts/c1/c1-2.rpy:23
 translate english c1_2_8f537e3b:
 
     # "就像她的情绪，变得平缓，混杂着无所适从的迷茫，溶解在夜色之中。"
-    ""
+    "Her thoughts softened, calm yet lost, drifting into the night."
 
 # game/scripts/c1/c1-2.rpy:27
 translate english c1_2_fd64e54c:
 
     # by eye_close e "话说，温心她……其实我跟她不熟，毕竟只是同班同学。"
-    by eye_close e ""
+    by eye_close e "Speaking of Wen Xin, about her... Actually, I'm not familiar with her, after all, we're just classmates."
 
 # game/scripts/c1/c1-2.rpy:28
 translate english c1_2_71d8338f:
 
     # by eye_move e "不过要这么说的话就没有同学跟我熟的……"
-    by eye_move e ""
+    by eye_move e "But if putting it that way, no classmates are familiar with me..."
 
 # game/scripts/c1/c1-2.rpy:29
 translate english c1_2_8cb5ee97:
 
     # me "嗯。"
-    me ""
+    me "Yeah."
 
 # game/scripts/c1/c1-2.rpy:30
 translate english c1_2_35ee8f43:
 
     # "白一忽然开始嘀嘀咕咕。\n我不知道为什么她突然说这个，但我认为，这时候或许只是听着比较好……"
-    ""
+    "Bai Yi suddenly started to mutter to herself. \nI didn't know why she suddenly said this, but I thought that at this time it was probably better to just listen..."
 
 # game/scripts/c1/c1-2.rpy:31
 translate english c1_2_9617051b:
 
     # by eye_close o "在学校里好像说过两句话，但我没印象了。"
-    by eye_close o ""
+    by eye_close o "I think we exchanged a couple of words at school, but I don't remember."
 
 # game/scripts/c1/c1-2.rpy:32
 translate english c1_2_a2655f02:
 
     # by eye_close o "但是没印象说明也没发生过什么。"
-    by eye_close o ""
+    by eye_close o "But the fact that I don't remember anything suggests that nothing happened between her and me."
 
 # game/scripts/c1/c1-2.rpy:33
 translate english c1_2_577273fe:
 
     # me "哦……嗯。"
-    me ""
+    me "Hmm...well."
 
 # game/scripts/c1/c1-2.rpy:35
 translate english c1_2_f539951f:
 
     # by eye_move e "所以，我真的会杀了她吗？我为什么要做这种脑残事？？"
-    by eye_move e ""
+    by eye_move e "So… did I really kill her? Why would I do something so stupid?"
 
 # game/scripts/c1/c1-2.rpy:36
 translate english c1_2_27298cd1:
 
     # me "嗯……"
-    me ""
+    me "Well..."
 
 # game/scripts/c1/c1-2.rpy:37
 translate english c1_2_2ff2c06f:
 
     # me "既然你觉得不会……那就相信自己呗。"
-    me ""
+    me "Since you don't think it will happen... then believe in yourself."
 
 # game/scripts/c1/c1-2.rpy:38
 translate english c1_2_3ddd733e:
 
     # by eye_wacky smile "呵呵，我是很想相信，但现在也发生了很多事情。"
-    by eye_wacky smile ""
+    by eye_wacky smile "Hehe, I really want to believe it, but a lot of things have happened now."
 
 # game/scripts/c1/c1-2.rpy:39
 translate english c1_2_f23c9f4c:
 
     # by eye_close o "很多事情，我原本是不信的那些……"
-    by eye_close o ""
+    by eye_close o "There are many things that I didn't believe in before..."
 
 # game/scripts/c1/c1-2.rpy:40
 translate english c1_2_76c13279:
 
     # "面对我苍白的安慰，她只是冷笑一声，啪地把被子扔到自己的头顶。"
-    ""
+    "She just gave a cold laugh at my pale comfort and threw the quilt over her head with a bang."
 
 # game/scripts/c1/c1-2.rpy:41
 translate english c1_2_aa72bbe7:
 
     # by eye_close e "啊……真的烦死了……"
-    by eye_close e ""
+    by eye_close e "Ah... So annoying.."
 
 # game/scripts/c1/c1-2.rpy:42
 translate english c1_2_44151e8e:
 
     # "白一轻骂一声，却没有再说话。"
-    ""
+    "Bai Yi cursed lightly, but did not speak again."
 
 # game/scripts/c1/c1-2.rpy:43
 translate english c1_2_20f6e772:
 
     # "房间里再次变得沉默。"
-    ""
+    "And the room fell silent again."
 
 # game/scripts/c1/c1-2.rpy:44
 translate english c1_2_34fcd3e2:
 
     # "被子被揉捏摩擦，发出细碎的声音，沙沙作响，仿若不安的心绪。"
-    ""
+    "The quilt was kneaded and rubbed, making a fine sound, rustling, as if it was an uneasy mood."
 
 # game/scripts/c1/c1-2.rpy:45
 translate english c1_2_008de3f2:
 
     # "好在，不知何时，她已然被睡梦侵蚀。"
-    ""
+    "Fortunately, she had already been invaded by sleep at some point."
 
 # game/scripts/c1/c1-2.rpy:56
 translate english c1_2_aefbeec0:
 
     # "熟悉的时间，熟悉的地方。"
-    ""
+    "Familiar time, familiar place."
 
 # game/scripts/c1/c1-2.rpy:57
 translate english c1_2_e5317159:
 
     # "面无表情的西平，笑眯眯的西顺，以及满脸不爽的白一在一个房间。"
-    ""
+    "In the same room stood Xi Ping, expressionless; Xi Shun, smiling; and Bai Yi, her face full of displeasure."
 
 # game/scripts/c1/c1-2.rpy:58
 translate english c1_2_ad9ff42d:
 
     # "——连表情也如此熟悉。"
-    ""
+    "...Even the expression is so familiar."
 
 # game/scripts/c1/c1-2.rpy:60
 translate english c1_2_3676b4ee:
 
     # xs "今天主要有三件事。"
-    xs ""
+    xs "There are three main things today."
 
 # game/scripts/c1/c1-2.rpy:61
 translate english c1_2_4bc560a5:
 
     # xs "第一个，结果出来了。你跟温心一样，是在差不多的时间服用安眠药的。"
-    xs ""
+    xs "First, the results are out. You and Wen Xin took sleeping pills at about the same time."
 
 # game/scripts/c1/c1-2.rpy:62
 translate english c1_2_c9ba0990:
 
     # by eye_def def "哦。所以，这样能证明我不是凶手吗？"
-    by eye_def def ""
+    by eye_def def "Oh. So, this proves I'm not the murderer?"
 
 # game/scripts/c1/c1-2.rpy:65
 translate english c1_2_e0c9cc3e:
 
     # xs "嗯——不能。理论上，比如，有可能是你知道自己会醒过来，自己吃的。"
-    xs ""
+    xs "Well...no. In theory, for example, it is possible that you know you will wake up and eat yourself."
 
 # game/scripts/c1/c1-2.rpy:66
 translate english c1_2_ebee1837:
 
     # "总而言之，因为白一突然“死而复生”，整件事情变得更加复杂。"
-    ""
+    "All in all, the whole thing has become more complicated because Bai Yi suddenly came back to life."
 
 # game/scripts/c1/c1-2.rpy:67
 translate english c1_2_d0238da6:
 
     # "除非有直接能够指认凶手的证据，否则，就目前唯一被证明在案发现场的，还和怪异有联系的人，白一很难清除嫌疑。"
-    ""
+    "Without direct evidence to identify the murderer, Bai Yi, the only person proven to be at the scene and connected to GuaiYi, cannot easily clear his suspicion."
 
 # game/scripts/c1/c1-2.rpy:68
 translate english c1_2_fad7d69d:
 
     # by eye_wacky e "……那你说个屁啊。查出来有什么用？不还是一样。"
-    by eye_wacky e ""
+    by eye_wacky e "Then what the hell are you talking about? What's the use of finding out? It's still the same."
 
 # game/scripts/c1/c1-2.rpy:71
 translate english c1_2_0187da05:
 
     # xs "不，信息越多，就离真相越近。"
-    xs ""
+    xs "No, the more information, the closer to the truth."
 
 # game/scripts/c1/c1-2.rpy:74
 translate english c1_2_9d2e834d:
 
     # xs "一件件查下去，会找到的。"
-    xs ""
+    xs "We'll finally find it if we check each item."
 
 # game/scripts/c1/c1-2.rpy:75
 translate english c1_2_1c9f7ddf:
 
     # by eye_move def "……行，你说是就是吧。"
-    by eye_move def ""
+    by eye_move def "...Okay, whatever you say."
 
 # game/scripts/c1/c1-2.rpy:76
 translate english c1_2_923b9d76:
 
     # "白一对此毫无兴趣，也懒得和西顺争论。"
-    ""
+    "Bai Yi had no interest in this and was too lazy to argue with Xi Shun."
 
 # game/scripts/c1/c1-2.rpy:79
 translate english c1_2_eb32756a:
 
     # xs "嗯，第二件事，之前，不是要给你做检查吗，就顺便多检查了一些。"
-    xs ""
+    xs "Well, the second thing. I was going to give you a checkup, so I did a few more tests."
 
 # game/scripts/c1/c1-2.rpy:82
 translate english c1_2_8f540541:
 
     # xs "加上查资料，我大概知道了，你身上的情况。"
-    xs ""
+    xs "With the research, I roughly know the situation of your body."
 
 # game/scripts/c1/c1-2.rpy:83
 translate english c1_2_7bd28ef3:
 
     # by eye_still o "……什么？"
-    by eye_still o ""
+    by eye_still o "...What?"
 
 # game/scripts/c1/c1-2.rpy:86
 translate english c1_2_98035911:
 
     # "白一愣了愣，而后，不知为何，微微皱了皱眉。"
-    ""
+    "Bai Yi froze. A moment later, she frowned, as if something had suddenly gone wrong."
 
 # game/scripts/c1/c1-2.rpy:87
 translate english c1_2_02c6d1d8:
 
     # "某种不知名的情绪浮现，似是不满，还有藏在不满心情下的紧张。"
-    ""
+    "An emotion I couldn’t name rose in her eyes — almost dissatisfaction, but tighter, sharper, threaded with tension."
 
 # game/scripts/c1/c1-2.rpy:88
 translate english c1_2_f6f071fe:
 
     # "被她的情绪感染，我也变得紧张起来。"
-    ""
+    "It spread to me before I realized it, my breath turning shallow."
 
 # game/scripts/c1/c1-2.rpy:89
 translate english c1_2_e905861d:
 
     # "西顺说的是那个意思吗？她是弄清楚什么了吗？然后……是要解决吗？"
-    ""
+    "Was this what Xi Shun meant? Had she noticed something?\nAnd if she had… was she about to unravel it?"
 
 # game/scripts/c1/c1-2.rpy:92
 translate english c1_2_2fd8e971:
 
     # xs "你身上的情况，和一种古老的诅咒有相似之处。"
-    xs ""
+    xs "What’s happening to you bears a resemblance to an ancient curse."
 
 # game/scripts/c1/c1-2.rpy:93
 translate english c1_2_997834ad:
 
     # xs "这种诅咒会在被诅咒的人受到致命伤害的时候生效，让身体进入一段时间的假死状态，避开真正的死亡。"
-    xs ""
+    xs "This curse activates when the afflicted person suffers a fatal injury, forcing the body into a temporary state of suspended death, allowing them to evade true death."
 
 # game/scripts/c1/c1-2.rpy:94
 translate english c1_2_c789dfb7:
 
     # xs "诅咒生效之后，被咒的人会忘记死之前发生的事情。"
-    xs ""
+    xs "Once the curse takes effect, the cursed individual loses all memory of what happened before their death."
 
 # game/scripts/c1/c1-2.rpy:95
 translate english c1_2_67d43dc3:
 
     # xs "所以，你才会出现短暂性失忆的情况。"
-    xs ""
+    xs "That’s the reason behind your temporary amnesia."
 
 # game/scripts/c1/c1-2.rpy:98
 translate english c1_2_0ab82fd6:
 
     # xs "不过……避开死亡并不是无条件的，它会导致不可预知的副作用。"
-    xs ""
+    xs "However… escaping death does not come without a price. The curse brings unpredictable side effects."
 
 # game/scripts/c1/c1-2.rpy:99
 translate english c1_2_0cafae04:
 
     # xs "而现在你身上的副作用就是……嗯，类似于，如果不彻底解除诅咒，还是会在三个月之后死掉。"
-    xs ""
+    xs "And the side effect affecting you right now is...well, something like this: if the curse isn’t completely lifted, you’ll still die in three months."
 
 # game/scripts/c1/c1-2.rpy:100
 translate english c1_2_bc07fda4:
 
     # by eye_still def "……"
-    by eye_still def ""
+    by eye_still def "..."
 
 # game/scripts/c1/c1-2.rpy:101
 translate english c1_2_93681703:
 
     # "这消息实在突然，且信息量巨大。"
-    ""
+    "The news was so sudden and contained so much information."
 
 # game/scripts/c1/c1-2.rpy:102
 translate english c1_2_acf802bd:
 
     # "以至于白一没有任何反应，只是呆呆地愣在原地。"
-    ""
+    "Bai Yi didn't react at all, but just stood there in a daze."
 
 # game/scripts/c1/c1-2.rpy:105
 translate english c1_2_c28d7675:
 
     # xs "你真的什么都想不起来吗？现在也是？"
-    xs ""
+    xs "Can't you really remember anything? Even now?"
 
 # game/scripts/c1/c1-2.rpy:106
 translate english c1_2_62ba3e40:
 
     # by eye_wacky o "废话。不然呢？"
-    by eye_wacky o ""
+    by eye_wacky o "Of course. What else?"
 
 # game/scripts/c1/c1-2.rpy:107
 translate english c1_2_c7abb1ff:
 
     # "情绪被打断，白一没什么好气地呛了一句。"
-    ""
+    "Interrupted in her emotions, Bai Yi retorted in a bad mood."
 
 # game/scripts/c1/c1-2.rpy:108
 translate english c1_2_8e9adade:
 
     # "西顺只是耸耸肩，继续往下说。"
-    ""
+    "Xi Shun just shrugged and continued."
 
 # game/scripts/c1/c1-2.rpy:111
 translate english c1_2_598e81ef:
 
     # xs "好了，我不是故意吊你胃口。"
-    xs ""
+    xs "Okay, I didn't mean to keep you in suspense."
 
 # game/scripts/c1/c1-2.rpy:112
 translate english c1_2_25282387:
 
     # xs "我这么问，是因为要解除诅咒，需要你找回死亡时的记忆。"
-    xs ""
+    xs "I’m asking because breaking the curse requires you to remember how you died."
 
 # game/scripts/c1/c1-2.rpy:113
 translate english c1_2_e69e4068:
 
     # by eye_wacky e "……哈？！"
-    by eye_wacky e ""
+    by eye_wacky e "...What?"
 
 # game/scripts/c1/c1-2.rpy:114
 translate english c1_2_48fa2ff8:
 
     # by eye_wacky def "这又是什么说法。"
-    by eye_wacky def ""
+    by eye_wacky def "What is this?"
 
 # game/scripts/c1/c1-2.rpy:117
 translate english c1_2_627db224:
 
     # xs "别这么看我，我没骗你。"
-    xs ""
+    xs "Don't look at me like that, I'm not lying to you."
 
 # game/scripts/c1/c1-2.rpy:120
 translate english c1_2_aecac5e3:
 
     # xs "等你想起来那段记忆，自然就知道该怎么做——嗯，资料上是这么说的。"
-    xs ""
+    xs "When you remember that memory, you will naturally know what to do - well, that's what the materials said."
 
 # game/scripts/c1/c1-2.rpy:121
 translate english c1_2_82ea00a0:
 
     # by eye_still e "……所以……反正基本意思就是，我三个月之后还是会死咯。"
-    by eye_still e ""
+    by eye_still e "...So... basically what you're saying is that I'm still going to die in three months."
 
 # game/scripts/c1/c1-2.rpy:124
 translate english c1_2_d60001b4:
 
     # xs "也许，如果找不到解决方法的话。是的。"
-    xs ""
+    xs "Maybe, if there's no solution. Yes."
 
 # game/scripts/c1/c1-2.rpy:125
 translate english c1_2_2198c8e4:
 
     # by eye_still "……"
-    by eye_still ""
+    by eye_still "..."
 
 # game/scripts/c1/c1-2.rpy:126
 translate english c1_2_e94063b6:
 
     # by eye_close o "哦……"
-    by eye_close o ""
+    by eye_close o "Okay..."
 
 # game/scripts/c1/c1-2.rpy:127
 translate english c1_2_f0cbdaac:
 
     # by eye_def e "等等，所以关于她的呢？我跟[user]是怎么回事？"
-    by eye_def e ""
+    by eye_def e "Wait, so what about her? What about me and [user]?"
 
 # game/scripts/c1/c1-2.rpy:128
 translate english c1_2_e5c255c9:
 
     # "想不通，白一干脆转移了对话，好似这样就能一起撇开胸口那股烦闷的感觉。"
-    ""
+    "Not knowing what else to do, Bai Yi changed the subject, hoping to clear the air of their shared frustration."
 
 # game/scripts/c1/c1-2.rpy:129
 translate english c1_2_27ef85fa:
 
     # "只是，急忙抛出来的话题，似乎也并没有好到哪里去。"
-    ""
+    "However, the topic that was hastily thrown out didn't seem to be much better."
 
 # game/scripts/c1/c1-2.rpy:132
 translate english c1_2_4ccb25c2:
 
     # xs "嗯……这个还不知道。"
-    xs ""
+    xs "Well... I don't know yet."
 
 # game/scripts/c1/c1-2.rpy:133
 translate english c1_2_912b6b52:
 
     # by eye_wacky e "哈？！"
-    by eye_wacky e ""
+    by eye_wacky e "What?!"
 
 # game/scripts/c1/c1-2.rpy:134
 translate english c1_2_7b0b2c29:
 
     # xs "也许这也是副作用的一种吧……{size=23}只是之前没出现过，也没听说过，会联系到完全不相关的人身上……{/size}"
-    xs ""
+    xs "Maybe this is a kind of side effect...{size=23}It's just that it hasn't appeared before, and I haven't heard of it, and it will be linked to completely unrelated people...{/size}"
 
 # game/scripts/c1/c1-2.rpy:135
 translate english c1_2_00b06a88:
 
     # by eye_wacky def "……"
-    by eye_wacky def ""
+    by eye_wacky def "..."
 
 # game/scripts/c1/c1-2.rpy:136
 translate english c1_2_834d9107:
 
     # "怎么感觉不太靠谱……"
-    ""
+    "Seems a bit iffy..."
 
 # game/scripts/c1/c1-2.rpy:139
 translate english c1_2_977d4407:
 
     # xs "所以我说，是古老诅咒的相似类型。你和她的这种情况，在记录里从来没有过——啊，当然这次以后就会有了。"
-    xs ""
+    xs "So I say, it's a similar type of ancient curse. What you and she have is unprecedented in the records - ah, of course, there will be after this time."
 
 # game/scripts/c1/c1-2.rpy:140
 translate english c1_2_9b7d8753:
 
     # by eye_still def "这算什么。"
-    by eye_still def ""
+    by eye_still def "What kind of answer is this?"
 
 # game/scripts/c1/c1-2.rpy:143
 translate english c1_2_631e4849:
 
     # xs "但硬要说也不算奇怪。怪异本就无法用常理判断，世界上的怪异也千变万化。"
-    xs ""
+    xs "But it wouldn't be strange to say that. The GuaiYi cannot be judged by common sense, and it is ever-changing in the world."
 
 # game/scripts/c1/c1-2.rpy:146
 translate english c1_2_f207eea4:
 
     # xs "用我们的话说，你遇到了，这就是属于你的“缘”。"
-    xs ""
+    xs "In our words, you have met, this is your “Yuan”(Fate)."
 
 # game/scripts/c1/c1-2.rpy:149
 translate english c1_2_023d29af:
 
     # xs "不过，可以确定的是，她因为诅咒绑定你，自然和诅咒一样，有类似的特性。"
-    xs ""
+    xs "However, one thing is certain: since she is bonded to you through the curse, she naturally shares its traits."
 
 # game/scripts/c1/c1-2.rpy:152
 translate english c1_2_1ae18772:
 
     # xs "她附着你的身体，会消耗你的生命力，当然，解除之后也会完全消失。"
-    xs ""
+    xs "Attached to your body, she consumes your life force. Of course, this effect will cease completely once the curse is lifted."
 
 # game/scripts/c1/c1-2.rpy:153
 translate english c1_2_5636da89:
 
     # by eye_close e "哦……"
-    by eye_close e ""
+    by eye_close e "Oh..."
 
 # game/scripts/c1/c1-2.rpy:164
 translate english c1_2_ed664a85:
 
     # xs "怎么，现在开始舍不得了？"
-    xs ""
+    xs "Well, you're starting to refuse to let her go of you?"
 
 # game/scripts/c1/c1-2.rpy:165
 translate english c1_2_7c8c2f03:
 
     # by eye_shock o "才没有！怎么可能！"
-    by eye_shock o ""
+    by eye_shock o "No way! How could that be!"
 
 # game/scripts/c1/c1-2.rpy:168
 translate english c1_2_04edfcf4:
 
     # xs "……"
-    xs ""
+    xs "..."
 
 # game/scripts/c1/c1-2.rpy:171
 translate english c1_2_27e64198:
 
     # xs "嗯，那就好。"
-    xs ""
+    xs "Well, that would be fine."
 
 # game/scripts/c1/c1-2.rpy:174
 translate english c1_2_9865d74d:
 
     # "西顺挑了挑眉，看着白一轻笑了一会。{p}但她没有继续调侃下去，而是很快收起了笑容。"
-    ""
+    "Xishun raised his eyebrows, looked at Bai Yi and chuckled for a while. {p}But she did not continue teasing, but quickly put away her smile."
 
 # game/scripts/c1/c1-2.rpy:177
 translate english c1_2_fa7a1433:
 
     # xs "像你们这种情况，共感，同知，可以算是每时每刻在一起。"
-    xs ""
+    xs "In a situation like yours, sharing the same feelings and knowing each other can be considered as being together every moment."
 
 # game/scripts/c1/c1-2.rpy:178
 translate english c1_2_9cc3360e:
 
     # xs "[user]能看见，也能跟你一起思考，你们互相提醒，对于你们解除诅咒是有好处的。"
-    xs ""
+    xs "[user] can see and think with you. It is good for you to remind each other to lift the curse."
 
 # game/scripts/c1/c1-2.rpy:181
 translate english c1_2_bbd3cb43:
 
     # xs "但是，你们要知道，这些都只是为了解除诅咒，千万不要对此投入太多感情……你们都是。"
-    xs ""
+    xs "However, you have to know that these are just to lift the curse, don't be too emotionally invested in it...y'all."
 
 # game/scripts/c1/c1-2.rpy:184
 translate english c1_2_58687939:
 
     # xs "不要被吊桥效应影响。"
-    xs ""
+    xs "Don't be affected by the drawbridge effect."
 
 # game/scripts/c1/c1-2.rpy:185
 translate english c1_2_78bc14e6:
 
     # by eye_still def "……哦。你要教我做事？"
-    by eye_still def ""
+    by eye_still def "...oh. You want to teach me how to do things?"
 
 # game/scripts/c1/c1-2.rpy:186
 translate english c1_2_3ec286e7:
