@@ -13,8 +13,11 @@ label splashscreen():
     $ quick_menu = False
     scene black with dissolve
     show screen demo with dissolve
-    pause 1.5
+    pause 2.5
     hide screen demo with dissolve
+    show logo with dissolve
+    pause 1.0
+    hide logo with dissolve
     pause 0.5
     return
 

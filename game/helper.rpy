@@ -9,7 +9,7 @@ init python:
 init python:
     config.keymap['dismiss'].append('mousedown_5')
     config.keymap['dismiss'].append('K_DOWN')
-    config.keymap['rollback'] = ('K_UP')
+    # config.keymap['rollback'] = ('K_UP')
 
 
 # custom mouse icon setting
