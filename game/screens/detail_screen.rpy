@@ -80,7 +80,7 @@ screen detail_screen:
                                 yoffset 20
                             background "gui/ev/ev-btn-idle.png"
                             hover_background "gui/ev/ev-btn-hover.png"
-                            text "[clueList[i][0]]":
+                            text _(clueList[i][0]):
                                 yoffset -20
                                 align (0.5,1.0)
                                 color gui.black
@@ -165,7 +165,7 @@ screen detail_screen:
                             yoffset 20
                         background "gui/ev/ev-btn-idle.png"
                         hover_background "gui/ev/ev-btn-hover.png"
-                        text "[charList[i]]":
+                        text _(charList[i]):
                             yoffset -20
                             align (0.5,1.0)
                             color gui.black

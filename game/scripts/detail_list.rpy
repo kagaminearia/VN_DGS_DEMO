@@ -1,4 +1,14 @@
-define clueList = [ # clue content, index = line number - 2
+define MAX_LEN = 200
+
+default persistent.charhex = [0]*MAX_LEN
+default persistent.charinfo1 = [0]*MAX_LEN
+default persistent.charinfo2 = [0]*MAX_LEN
+default persistent.charinfo3 = [0]*MAX_LEN
+
+default persistent.clue = [0]*MAX_LEN
+
+
+default clueList = [ # clue content, index = line number - 2
     (
         _("调查报告（片段）"),
         _("有关温心的调查报告。\n与怪异产生联系后，城安局特调组重新对温心的死亡事件进行了调查。")
@@ -33,7 +43,7 @@ define clueList = [ # clue content, index = line number - 2
     ),
     ]
 
-default persistent.clue = [0]*len(clueList)
+
 # images for clues
 image evlocked = "gui/ev/ev-locked.png"
 image clue0 = "images/clue/clue_0.png"
@@ -47,7 +57,7 @@ image clue7 = "images/clue/clue_7.webp"
 
 
 # character info
-define charList = [
+default charList = [
     _("白一"),
     _("岑宣"),
     _("繁锦"),
@@ -62,7 +72,7 @@ define charList = [
     _("张班"),
 ]
 
-define charBasic = [
+default charBasic = [
     [_("女性 17岁"), _("高二6班 普通班")],
     [_("女性 17岁"), _("高二9班 精英班")],
     [_("女性 25岁"), _("心理辅导教师")],
@@ -77,7 +87,7 @@ define charBasic = [
     [_("女性 26岁"), _("高二6班 班主任")],
 ]
 
-define charInfoContent= [
+default charInfoContent= [
     [_("没存在感，讨厌麻烦"),_("经常被说“看起来很阴沉”"),_("其实话很多，尤其是骂人的话，只是一般不会说出来")],
     [_("成绩优良，每个科目都发展均衡"),_("好胜心很强，也喜欢挑战自己"),_("在乎人际关系，在乎自己的形象，在乎他人看法")],
     [_("善良，温和，有时有些啰嗦"),_("乐于助人，总是希望自己能够帮助到别人"),_("曾在社区中心担任心理咨询师，后转到学校工作")],
@@ -92,10 +102,12 @@ define charInfoContent= [
     [_("教龄5年，第一次当班主任"),_("没有任何热情，得过且过"),_("多次后悔选择这个教师职业")],
 ]
 
-default persistent.charhex = [0]*len(charList)
-default persistent.charinfo1 = [0]*len(charList)
-default persistent.charinfo2 = [0]*len(charList)
-default persistent.charinfo3 = [0]*len(charList)
+
+
+# default persistent.charhex = [0]*len(charList)
+# default persistent.charinfo1 = [0]*len(charList)
+# default persistent.charinfo2 = [0]*len(charList)
+# default persistent.charinfo3 = [0]*len(charList)
 
 # story noun explanation
 default persistent.dictList = [
