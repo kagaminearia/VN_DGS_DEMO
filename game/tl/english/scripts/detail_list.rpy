@@ -32,7 +32,7 @@ translate english strings:
 
     # game/scripts/detail_list.rpy:1
     old "有长时间开过火的痕迹，燃气灶老旧，燃气喷嘴处有异物堵塞。"
-    new "“The old gas stove shows signs of prolonged burning, with debris blocking the gas nozzle.”"
+    new "The old gas stove shows signs of prolonged burning, with debris blocking the gas nozzle."
 
     # game/scripts/detail_list.rpy:1
     old "灶台-垃圾桶"
@@ -176,145 +176,145 @@ translate english strings:
 
     # game/scripts/detail_list.rpy:80
     old "没存在感，讨厌麻烦"
-    new ""
+    new "Unnoticeable, dislikes trouble"
 
     # game/scripts/detail_list.rpy:80
     old "经常被说“看起来很阴沉”"
-    new ""
+    new "Often described as 'gloomy-looking'"
 
     # game/scripts/detail_list.rpy:80
     old "其实话很多，尤其是骂人的话，只是一般不会说出来"
-    new ""
+    new "Talkative, especially when angry, but usually keeps quiet"
 
     # game/scripts/detail_list.rpy:80
     old "成绩优良，每个科目都发展均衡"
-    new ""
+    new "Good grades, well-rounded in all subjects"
 
     # game/scripts/detail_list.rpy:80
     old "好胜心很强，也喜欢挑战自己"
-    new ""
+    new "Highly competitive, enjoys challenging themselves"
 
     # game/scripts/detail_list.rpy:80
     old "在乎人际关系，在乎自己的形象，在乎他人看法"
-    new ""
+    new "Cares about relationships, image, and others' opinions"
 
     # game/scripts/detail_list.rpy:80
     old "善良，温和，有时有些啰嗦"
-    new ""
+    new "Kind, gentle, sometimes a bit nagging"
 
     # game/scripts/detail_list.rpy:80
     old "乐于助人，总是希望自己能够帮助到别人"
-    new ""
+    new "Helpful, always wants to assist others"
 
     # game/scripts/detail_list.rpy:80
     old "曾在社区中心担任心理咨询师，后转到学校工作"
-    new ""
+    new "Former community center counselor, now works at a school"
 
     # game/scripts/detail_list.rpy:80
     old "正在退步的体育生"
-    new ""
+    new "Declining athlete"
 
     # game/scripts/detail_list.rpy:80
     old "总是很有活力，带着笑容"
-    new ""
+    new "Always energetic and smiling"
 
     # game/scripts/detail_list.rpy:80
     old "在乎朋友，在乎喜欢的人"
-    new ""
+    new "Cares about friends and loved ones"
 
     # game/scripts/detail_list.rpy:80
     old "超前学习了很多，但效果并不算理想"
-    new ""
+    new "Studied ahead extensively, but results are mediocre"
 
     # game/scripts/detail_list.rpy:80
     old "认为自己和其他同学是不同的"
-    new ""
+    new "Feels different from other classmates"
 
     # game/scripts/detail_list.rpy:80
     old "被家人寄予厚望，目标只有第一名"
-    new ""
+    new "Under family pressure, aims only for first place"
 
     # game/scripts/detail_list.rpy:80
     old "社交天才（自称）"
-    new ""
+    new "Self-proclaimed social genius"
 
     # game/scripts/detail_list.rpy:80
     old "不爱学习，特别喜欢八卦"
-    new ""
+    new "Dislikes studying, loves gossip"
 
     # game/scripts/detail_list.rpy:80
     old "某些情况下，有动物般的精准直觉"
-    new ""
+    new "Sometimes exhibits animal-like instincts"
 
     # game/scripts/detail_list.rpy:80
     old "在普通班保持成绩年级前5的优秀学生"
-    new ""
+    new "Top 5 student in a regular class"
 
     # game/scripts/detail_list.rpy:80
     old "性格好，人缘好，八面玲珑"
-    new ""
+    new "Good-natured, well-liked, adaptable"
 
     # game/scripts/detail_list.rpy:80
     old "家里很有钱，已经有不少个人资产"
-    new ""
+    new "Wealthy family, owns considerable personal assets"
 
     # game/scripts/detail_list.rpy:80
     old "高二6班的班长，成绩中上"
-    new ""
+    new "Class president of 2-6, above-average grades"
 
     # game/scripts/detail_list.rpy:80
     old "有很强的正义感和责任感"
-    new ""
+    new "Strong sense of justice and responsibility"
 
     # game/scripts/detail_list.rpy:80
     old "做事容易较真，有些古板固执"
-    new ""
+    new "Serious-minded, somewhat rigid and stubborn"
 
     # game/scripts/detail_list.rpy:80
     old "父母双亡，由奶奶抚养长大"
-    new ""
+    new "Orphaned, raised by grandmother"
 
     # game/scripts/detail_list.rpy:80
     old "努力学习，希望带奶奶过上好的生活"
-    new ""
+    new "Studies hard to give grandmother a better life"
 
     # game/scripts/detail_list.rpy:80
     old "奶奶去世后，目标变成了让奶奶入土为安"
-    new ""
+    new "After grandmother's death, goal is to lay her to rest properly"
 
     # game/scripts/detail_list.rpy:80
     old "特聘编外人员，兼任法医和西顺的保镖"
-    new ""
+    new "Special contracted staff, acts as forensic expert and Xi Shun’s bodyguard"
 
     # game/scripts/detail_list.rpy:80
     old "高智商，跳级上学毕业"
-    new ""
+    new "Highly intelligent, skipped grades"
 
     # game/scripts/detail_list.rpy:80
     old "作为姐姐，经常在生活上被妹妹照顾"
-    new ""
+    new "As an older sister, often cared for by her younger sibling"
 
     # game/scripts/detail_list.rpy:80
     old "体质罕见，极其容易吸引怪异"
-    new ""
+    new "Rare constitution, highly prone to attracting GuaiYi"
 
     # game/scripts/detail_list.rpy:80
     old "外表温柔而和善，擅长和人拉近关系"
-    new ""
+    new "Gentle and kind in appearance, skilled at connecting with others"
 
     # game/scripts/detail_list.rpy:80
     old "怕死，工作是为了让自己更好活着"
-    new ""
+    new "Afraid of death, works to survive better"
 
     # game/scripts/detail_list.rpy:80
     old "教龄5年，第一次当班主任"
-    new ""
+    new "5 years teaching experience, first time as homeroom teacher"
 
     # game/scripts/detail_list.rpy:80
     old "没有任何热情，得过且过"
-    new ""
+    new "No enthusiasm, just coasts along"
 
     # game/scripts/detail_list.rpy:80
     old "多次后悔选择这个教师职业"
-    new ""
+    new "Regretted choosing the teaching profession multiple times"
 
