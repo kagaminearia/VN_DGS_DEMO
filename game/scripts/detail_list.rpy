@@ -47,14 +47,16 @@ default clueList = [ # clue content, index = line number - 2
 
 # images for clues
 image evlocked = "gui/ev/ev-locked.png"
-image clue0 = "images/clue/clue_0.png"
-image clue1 = "images/clue/clue_1.png"
-image clue2 = "images/clue/clue_2.png"
-image clue3 = "images/clue/clue_3.png"
-image clue4 = "images/clue/clue_4.png"
-image clue5 = "images/clue/clue_5.png"
-image clue6 = "images/clue/clue_6.png"
-image clue7 = "images/clue/clue_7.webp"
+image clue 0 ch = "images/clue/clue_0.png"
+image clue 0 en = "images/en/clue/clue_0.webp"
+image clue 1 = "images/clue/clue_1.png"
+image clue 2 = "images/clue/clue_2.png"
+image clue 3 = "images/clue/clue_3.png"
+image clue 4 = "images/clue/clue_4.png"
+image clue 5 = "images/clue/clue_5.png"
+image clue 6 = "images/clue/clue_6.png"
+image clue 7 ch = "images/clue/clue_7.webp"
+image clue 7 en = "images/en/clue/clue_7.webp"
 
 
 # character info

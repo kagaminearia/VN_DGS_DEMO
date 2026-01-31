@@ -74,7 +74,7 @@ screen detail_screen:
                 for i in range(len(clueList)):
                     if persistent.clue[i] == 1:
                         button:
-                            add "clue[i]":
+                            add get_clue_image(i):
                                 size(170,170)
                                 align (0.5,0.0)
                                 yoffset 20
@@ -197,16 +197,16 @@ screen char_screen(index):
                 add "images/char_dict/side[index].webp"
                 vbox:
                     spacing 60
-                    text "[charList[index]]":
+                    text _([charList[index]]):
                         color gui.black
                         font gui.detailtitle_font
                         size 55
                     vbox:
-                        text "[charBasic[index][0]]":
+                        text _([charBasic[index][0]]):
                             color gui.black
                             font gui.detail_font
                             size 22
-                        text "[charBasic[index][1]]":
+                        text _([charBasic[index][1]]):
                             color gui.black
                             font gui.detail_font
                             size 22
@@ -239,6 +239,15 @@ screen char_screen(index):
         action [Hide("char_screen")]
 
 
+init python:
+    def get_clue_image(index):
+        lang = "ch" if renpy.game.preferences.language == "None" else "en"
+
+        if renpy.has_image("clue %d %s" % (index, lang)):
+            return "clue %d %s" % (index, lang)
+
+        return "clue %d" % index
+
 screen clue_screen(index):
     on "show" action Stop(channel="text")
     modal True
@@ -253,8 +262,16 @@ screen clue_screen(index):
         xysize (500,700)
         vbox:
             spacing 25
-            add "clue[index]":
-                size(500,500)
+            add get_clue_image(index):
+                size (500, 500)
+
+            # if index in [0,7]:
+            #     $ lang = "ch" if renpy.language == "None" else "en"
+            #     add "clue %d %s" % (index, lang):
+            #         size(500,500)
+            # else:
+            #     add "clue[index]":
+            #         size(500,500)
             vbox:
                 spacing 6
                 text [clueList[index][0]]:

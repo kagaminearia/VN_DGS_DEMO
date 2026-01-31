@@ -80,7 +80,7 @@ translate english strings:
 
     # game/scripts/detail_list.rpy:50
     old "梁绵绵"
-    new "Liang MianMain"
+    new "Liang MianMian"
 
     # game/scripts/detail_list.rpy:50
     old "林望龙"

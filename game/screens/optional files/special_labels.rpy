@@ -9,9 +9,17 @@
 ##
 ## Put the splash screen code here. It runs when the game is launched.
 ##
+default persistent.language_selected = False
 label splashscreen():
     $ quick_menu = False
     scene black with dissolve
+    if not persistent.language_selected:
+        menu:
+            "简体中文":
+                $ renpy.change_language("None")
+            "English":
+                $ renpy.change_language("english")
+        $ persistent.language_selected = True
     show screen demo with dissolve
     pause 2.5
     hide screen demo with dissolve
