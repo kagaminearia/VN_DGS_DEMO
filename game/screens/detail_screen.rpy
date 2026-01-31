@@ -111,33 +111,33 @@ screen detail_screen:
             style_prefix "detail"
             align (0.5,0.5)
             xysize (520,920)
-            if len(persistent.dictList) == 0:
-                vbox:
-                    text _("目录为空"):
-                        align (0.5,0.5)
-                        font gui.detailtitle_font
-                        color gui.black
-            else:
-                viewport:
-                    ysize 920
-                    xalign 0.5
-                    yalign 0.5
-                    style_prefix 'detail'
-                    mousewheel True draggable True pagekeys True
-                    scrollbars "vertical"
-                    yinitial 1.0
+            viewport:
+                ysize 920
+                xalign 0.5
+                yalign 0.5
+                style_prefix 'detail'
+                mousewheel True draggable True pagekeys True
+                scrollbars "vertical"
+                yinitial 1.0
 
-                    has vbox
-                    spacing 30
-                    for i in range(len(persistent.dictList)):
+                has vbox
+                spacing 30
+                for i in range(len(dictList)):
+                    if persistent.dictLs[i] == 1:
                         vbox:
-                            text "[persistent.dictList[i][0]]":
+                            text _([dictList[i][0]]):
                                 font gui.detailtitle_font
                                 color gui.black
-                            text "[persistent.dictList[i][1]]":
+                            text _([dictList[i][1]]):
                                 font gui.detail_font
                                 color gui.black
                                 size 23
+                    else:
+                        vbox:
+                            text "■" * len(dictList[i][0]):
+                                font gui.detailtitle_font
+                                color gui.black
+
                 
     else:
         frame:

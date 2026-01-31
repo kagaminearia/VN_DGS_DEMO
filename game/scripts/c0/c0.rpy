@@ -213,12 +213,7 @@ label c0:
     me "不知道。不过……这里，好像是城安局。"
     me "话说，城安局是什么地方？"
     by eye_wacky o "……啊？你连城安局是什么都不知道，却知道这里就是？\n真是有够奇怪的……"
-    python:
-        persistent.dictList.append((
-            _("城安局"),
-            _("全称为城市安全管理局，顾名思义，负责处理影响到城市安全的事件。\n内部人员一般分为三个组，民案组，刑事组，特调组。")
-        ))
-        persistent.dictList = list(set(persistent.dictList))    
+    $ persistent.dictLs[0] = 1 
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
 
@@ -283,13 +278,8 @@ label c0:
     by eye_def o "……啊？"
     "面对突如其来的问题，白一显得十分疑惑，但还是老老实实地回答。"
     by eye_def o "当然知道啊。特别案件调查组……是吧。"
-    python:
-        persistent.dictList.append((
-            _("特调组-1"),
-            _("全称为特别案件调查组，是城安局的主要部门之一，负责解决已经对社会产生重大恶劣影响的事件。")
-        ))
-        persistent.dictList = list(set(persistent.dictList))
 
+    $ persistent.dictLs[1] = 1
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
 
@@ -306,15 +296,11 @@ label c0:
     hide xsimg
     show xsimg at char_mid
     xs "特殊怪异事件调查组。"
-    python:
-        persistent.dictList.append((
-            _("特调组-2"),
-            _("除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。")
-        ))
-        persistent.dictList = list(set(persistent.dictList))
-
+    
+    $ persistent.dictLs[2] = 1
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
+
     by eye_wacky def "……"
     "不知为何——也许是一种说不清楚的直觉——白一的呼吸短暂停止了一瞬间。"
     "但只是一瞬间。\n她很快又恢复气息，装作没有任何反应的样子。"

@@ -151,20 +151,10 @@ label c1_2:
     show xsimg o at char_mid
     xs "她附着你的身体，会消耗你的生命力，当然，解除之后也会完全消失。"
     by eye_close e "哦……"
-    python:
-        persistent.dictList.append((
-            _("白一身上的诅咒-1"),
-            _("和一种古老的诅咒有相似之处。\n该诅咒有一定概率在极端条件下令人进入假死状态，提供可能的生机。\n诅咒生效后，会产生无法预知的副作用。")
-        ))
-        persistent.dictList.append((
-            _("白一身上的诅咒-2"),
-            _("一体双魂，指的是在一具躯体里强行塞入第二个灵魂。\n这是一种由怪异产生的负面效果，会大量消耗躯体的寿命，直至承受不住。\n这个过程不长，大约有两三个月的时间，身体就会完全崩溃。")
-        ))
-        persistent.dictList.append((
-            _("白一身上的诅咒-3"),
-            _("诅咒生效后必然会产生副作用，为防止人类随意钻空子使用诅咒，怪异会清除掉和诅咒相关的记忆。\n反过来说，只要找回被清除的记忆，就可以彻底清除身上的诅咒。")
-        ))
-        persistent.dictList = list(set(persistent.dictList))
+    
+    $ persistent.dictLs[5] = 1
+    $ persistent.dictLs[6] = 1
+    $ persistent.dictLs[7] = 1    
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
 
