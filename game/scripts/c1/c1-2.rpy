@@ -529,5 +529,6 @@ label c1_2:
     by eye_close e "你也别太自恋了，就放一百个心好吧……"
     by eye_close e "像她说的那种故事，什么在特殊环境下，产生错误的感情……"
     by eye_close def "那种故事……早就过时了。"
+    scene black with Dissolve(1.5)
     stop music fadeout 1.5
     return

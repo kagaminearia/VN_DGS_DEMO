@@ -241,8 +241,9 @@ screen char_screen(index):
 
 init python:
     def get_clue_image(index):
-        lang = "ch" if renpy.game.preferences.language == "None" else "en"
-
+        # lang = "ch" if renpy.game.preferences.language == "None" else "en"
+        lang = "en" if renpy.game.preferences.language == "english" else "ch"
+        
         if renpy.has_image("clue %d %s" % (index, lang)):
             return "clue %d %s" % (index, lang)
 

@@ -149,7 +149,7 @@ style sound_text:
 screen clue_display(index):
     on "show" action Stop(channel="text")
     add "#00000080"
-    add "clue[index]":
+    add get_clue_image(index):
         size(750,750)
         xalign 0.5
         yalign 0.1
