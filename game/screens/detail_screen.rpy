@@ -340,7 +340,7 @@ screen clue_choice(correctchoice,wronglabel,correctlabel,question=""):
             for i in range(len(clueList)):
                 if persistent.clue[i] == 1:
                     button:
-                        add "clue[i]":
+                        add get_clue_image(i):
                             size(170,170)
                             align (0.5,0.0)
                             yoffset 20

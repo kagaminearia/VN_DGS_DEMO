@@ -1426,7 +1426,7 @@ translate english c1_1_extra_76cfd083:
 translate english c1_1_extra_421449d6:
 
     # by eye_def o "怎么说？"
-    by eye_def o "How to say?"
+    by eye_def o "Yea?"
 
 # game/scripts/c1/c1-1.rpy:416
 translate english c1_1_wrongmenu_continue_96536adb:

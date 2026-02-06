@@ -21,6 +21,7 @@ define config.name = _("DreamyGoldenSnow-DEMO")
 ## or semicolons.
 
 define build.name = "DGS-DEMO"
+# launch folder name: DreamyGoldenSnow_Demo
 
 
 # languages ##############################################################
