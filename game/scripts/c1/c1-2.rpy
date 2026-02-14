@@ -1,4 +1,4 @@
-label c1_2:
+label ch1_2:
     scene bg_byroom2 with Fade(0.4,0.5,0.4)
     me "检查结果明天才出来。"
     by eye_def o "啥？我知道啊？"
@@ -16,11 +16,12 @@ label c1_2:
     me "不过，你是不是忘了我能感觉到——"
     by eye_shock o "{size=45}都说了你感觉错了！{/size}"
     by eye_shock def "……"
-    by eye_close o "{size=23}我只是，现在想起来，还是觉得很不真实罢了。{/size}"
+    by eye_close e "{size=23}啊……算了……{/size}"
+    by eye_close o "我只是，现在想起来，还是觉得很不真实罢了。"
     "有人死了，曾经死过，杀人嫌疑……\n一切都不真实。"
     me "嗯……也对。"
     "白一在床上打滚的动作停下后，房间变得很安静，只有她的心脏在慢慢跳动。"
-    "就像她的情绪，变得平缓，混杂着无所适从的迷茫，溶解在夜色之中。"
+    "就像她的情绪，变得平缓麻木，却也混杂着无所适从的迷茫，溶解在夜色之中。"
 
     scene bg_byroom2 with fade
     show tophalfblk with dissolve
@@ -38,8 +39,9 @@ label c1_2:
     by eye_wacky smile "呵呵，我是很想相信，但现在也发生了很多事情。"
     by eye_close o "很多事情，我原本是不信的那些……"
     "面对我苍白的安慰，她只是冷笑一声，啪地把被子扔到自己的头顶。"
+    show tophalfblk with dissolve
     by eye_close e "啊……真的烦死了……"
-    "白一轻骂一声，却没有再说话。"
+    "白一轻骂一声，之后就没再说些什么。"
     "房间里再次变得沉默。"
     "被子被揉捏摩擦，发出细碎的声音，沙沙作响，仿若不安的心绪。"
     "好在，不知何时，她已然被睡梦侵蚀。"
@@ -57,15 +59,25 @@ label c1_2:
     "面无表情的西平，笑眯眯的西顺，以及满脸不爽的白一在一个房间。"
     "——连表情也如此熟悉。"
     show xsimg o at char_mid with moveinright
-    xs "今天主要有三件事。"
+    xs "今天的话，主要有三件事。"
     xs "第一个，结果出来了。你跟温心一样，是在差不多的时间服用安眠药的。"
     by eye_def def "哦。所以，这样能证明我不是凶手吗？"
     hide xsimg
     show xsimg eye_close o at char_mid
-    xs "嗯——不能。理论上，比如，有可能是你知道自己会醒过来，自己吃的。"
+    xs "嗯——不能。"
+    xs "你现在重新活过来，而你自己有可能是知道这件事情的。"
+    xs "那么，理论上，所有关于你也是受害者的线索……都不一定可靠。"
+    xs "比如安眠药，有可能是你自己吃的。因为你知道自己就算在那里晕倒中毒，之后也会重新活过来。"
+    xs "那样如果你真是凶手，就很容易洗脱嫌疑了。"
+    by eye_still o "……这不是完全没洗脱吗？"
+    xs "那是因为时机不对。"
+    xs "如果没有被特案组发现，你就是一个很倒霉，但也很幸运的受害者。"
+    by eye_still o "……很倒霉，因为“不小心”吃了药，在房间里中毒。很幸运，因为虽然中毒，却没有死亡？"
+    xs "对，聪明。"
+    by eye_wacky def "……"
     "总而言之，因为白一突然“死而复生”，整件事情变得更加复杂。"
-    "除非有直接能够指认凶手的证据，否则，就目前唯一被证明在案发现场的，还和怪异有联系的人，白一很难清除嫌疑。"
-    by eye_wacky e "……那你说个屁啊。查出来有什么用？不还是一样。"
+    "除非有直接能够指认凶手的证据，否则，作为目前唯一被证明在案发现场的，还和怪异有联系的人，白一很难清除嫌疑。"
+    by eye_wacky e "那你说这么多，说个屁啊。查出来有什么用？不还是一样。"
     hide xsimg
     show xsimg at char_mid
     xs "不，信息越多，就离真相越近。"
@@ -76,11 +88,11 @@ label c1_2:
     "白一对此毫无兴趣，也懒得和西顺争论。"
     hide xsimg
     show xsimg smile at char_mid
-    xs "嗯，第二件事，之前，不是要给你做检查吗，就顺便多检查了一些。"
+    xs "嗯，那继续说第二件事。之前，不是要给你做检查吗，就顺便多检查了一些项目。"
     hide xsimg
     show xsimg o at char_mid
-    xs "加上查资料，我大概知道了，你身上的情况。"
-    by eye_still o "……什么？"
+    xs "结合你的情况，我也查了一些以前的资料……我大概能确认，你身上的怪异是怎么回事。"
+    by eye_still o "什么？真的？"
     hide xsimg
     show xsimg at char_mid
     "白一愣了愣，而后，不知为何，微微皱了皱眉。"
@@ -90,16 +102,18 @@ label c1_2:
     hide xsimg
     show xsimg o at char_mid
     xs "你身上的情况，和一种古老的诅咒有相似之处。"
-    xs "这种诅咒会在被诅咒的人受到致命伤害的时候生效，让身体进入一段时间的假死状态，避开真正的死亡。"
-    xs "诅咒生效之后，被咒的人会忘记死之前发生的事情。"
+    xs "这种诅咒会在被诅咒的人受到致命伤害的时候生效，让身体进入一段时间的假死状态，随后恢复，避开真正的死亡。"
+    xs "诅咒生效之后，被咒的人会忘记死因，以及死前相关的事情。"
     xs "所以，你才会出现短暂性失忆的情况。"
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "不过……避开死亡并不是无条件的，它会导致不可预知的副作用。"
-    xs "而现在你身上的副作用就是……嗯，类似于，如果不彻底解除诅咒，还是会在三个月之后死掉。"
+    xs "还有就是，它现在只是相当于延缓了你的死亡，如果不彻底解除诅咒，你还是会在三个月之后死掉。"
+    xs "只有你在诅咒生效后再彻底解除，你才能真正摆脱这一次的死亡危机。"
     by eye_still def "……"
     "这消息实在突然，且信息量巨大。"
     "以至于白一没有任何反应，只是呆呆地愣在原地。"
+    "西顺不得不停止说话，等着白一自己缓过来。"
     hide xsimg
     show xsimg at char_mid
     xs "你真的什么都想不起来吗？现在也是？"
@@ -109,7 +123,7 @@ label c1_2:
     hide xsimg
     show xsimg o at char_mid
     xs "好了，我不是故意吊你胃口。"
-    xs "我这么问，是因为要解除诅咒，需要你找回死亡时的记忆。"
+    xs "我提到这点，是因为要解除诅咒，需要你找回死亡时的记忆。"
     by eye_wacky e "……哈？！"
     by eye_wacky def "这又是什么说法。"
     hide xsimg
@@ -124,43 +138,63 @@ label c1_2:
     xs "也许，如果找不到解决方法的话。是的。"
     by eye_still "……"
     by eye_close o "哦……"
-    by eye_def e "等等，所以关于她的呢？我跟[user]是怎么回事？"
-    "想不通，白一干脆转移了对话，好似这样就能一起撇开胸口那股烦闷的感觉。"
+    by eye_def e "等等，那我被附身的事情呢？这又是因为什么？"
+    "想不通，白一干脆转移了对话，好似这样就能撇开胸口那股烦闷的感觉。"
     "只是，急忙抛出来的话题，似乎也并没有好到哪里去。"
     hide xsimg
     show xsimg eye_move o at char_mid
     xs "嗯……这个还不知道。"
     by eye_wacky e "哈？！"
-    xs "也许这也是副作用的一种吧……{size=23}只是之前没出现过，也没听说过，会联系到完全不相关的人身上……{/size}"
+    xs "但是我们认为，这就是呈现在你身上副作用。只是不知道为什么会是这种形式。{size=23}之前没出现过，也没听说过，会联系到完全不相关的人身上……{/size}"
     by eye_wacky def "……"
     "怎么感觉不太靠谱……"
     hide xsimg
     show xsimg o at char_mid
-    xs "所以我说，是古老诅咒的相似类型。你和她的这种情况，在记录里从来没有过——啊，当然这次以后就会有了。"
+    xs "所以我说，是古老诅咒的相似类型。你和你的小鬼魂这种情况，在记录里从来没有过——啊，当然这次以后就会有了。"
     by eye_still def "这算什么。"
     hide xsimg
     show xsimg at char_mid
-    xs "但硬要说也不算奇怪。怪异本就无法用常理判断，世界上的怪异也千变万化。"
+    xs "但一定要解释的话，只能说，怪异本就无法用常理判断，世界上的怪异也千变万化。"
     hide xsimg
     show xsimg o at char_mid
     xs "用我们的话说，你遇到了，这就是属于你的“缘”。"
+    xs "可能你们就是有缘分吧。"
+    by eye_wacky o "{size=23}并不是很想要这种缘分……{/size}"
     hide xsimg
     show xsimg eye_close o at char_mid
-    xs "不过，可以确定的是，她因为诅咒绑定你，自然和诅咒一样，有类似的特性。"
+    xs "不过，可以确定的是，她因为诅咒绑定你，自然和附身的诅咒一样，有类似的特性。"
     hide xsimg
     show xsimg o at char_mid
     xs "她附着你的身体，会消耗你的生命力，当然，解除之后也会完全消失。"
+    xs "所以，你剩下的时间可能比三个月更短，最近的体质也会变差，算是副作用和诅咒本身的特性叠加起来了吧。"
     by eye_close e "哦……"
-    
+    by eye_def o "所以你是说，我身上有一个诅咒，然后它的副作用又给我加了一个诅咒，然后也有副作用。"
+    hide xsimg
+    show xsimg smile at char_mid
+    xs "可以这么理解。"
+
     $ persistent.dictLs[5] = 1
     $ persistent.dictLs[6] = 1
     $ persistent.dictLs[7] = 1    
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
-
+    
+    hide xsimg
+    show xsimg o at char_mid
+    xs "这种情况也是很少见的，所以，你要加油啊。"
+    by eye_still o "……加什么油，加油去死吗？"
+    hide xsimg
+    show xsimg smile at char_mid
+    xs "当然是加油解除诅咒。"
+    by eye_move def "……哼……"
+    by eye_still o "所以，诅咒解除，就彻底没事了？"
+    hide xsimg
+    show xsimg o at char_mid
+    xs "对，相当于什么都没发生过。你能活下来，也不会再有怪异影响你。"
+    by eye_still o "哦……"
     hide xsimg
     show xsimg eye_move smile at char_mid
-    xs "怎么，现在开始舍不得了？"
+    xs "怎么，现在开始舍不得你身上的小鬼魂了？"
     by eye_shock o "才没有！怎么可能！"
     hide xsimg
     show xsimg at char_mid
@@ -174,7 +208,7 @@ label c1_2:
     hide xsimg
     show xsimg o at char_mid
     xs "像你们这种情况，共感，同知，可以算是每时每刻在一起。"
-    xs "[user]能看见，也能跟你一起思考，你们互相提醒，对于你们解除诅咒是有好处的。"
+    xs "你的小鬼魂能感受你的身体，也能跟你一起思考，你们互相提醒，对于你们解除诅咒是有好处的。"
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "但是，你们要知道，这些都只是为了解除诅咒，千万不要对此投入太多感情……你们都是。"
@@ -187,13 +221,13 @@ label c1_2:
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "不，并不是你想的那样。这只是例行的提醒而已。"
-    by "……呵呵。"
+    by eye_close o "……呵呵。"
     "白一只是冷笑一声，也懒得对这句话做出直接回答。"
     hide xsimg
     show xsimg o at char_mid
     xs "好，那么现在说第三件事。"
     "西顺没有被白一的态度所影响，而是自然地接过了下一个话题。"
-    xs "温心的房间。关于我们之前推测的垃圾，暂时还没有发现对应的证据。"
+    xs "温心的房间。关于我们之前推测的垃圾桶，暂时还没有发现对应的证据。"
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "可能已经被处理掉了，当然，也不排除不存在这个东西。"
@@ -208,7 +242,7 @@ label c1_2:
     by eye_still o "像你这样做事，能查到什么东西？能查到才有鬼。"
     hide xsimg
     show xsimg o at char_mid
-    xs "首先，你冷静一点，不是你想的那样。"
+    xs "首先，你冷静一点，不要再发挥你的臆想了。"
     by eye_still "……"
     "面对白一的刻意挑衅，西顺的表情没有任何变化，这让白一有一种一拳打到棉花上的感觉，蓄起来的气无处可发。"
     by eye_close o "哦，知道了。"
@@ -224,7 +258,8 @@ label c1_2:
     show cg_xp01 at cg0 with vpunchm
     hide cg_xp00
     by eye_shock e "你要干嘛？！"
-    "白一又惊又怒，死死地地盯着面前的人——西平突然站起身，用力抓住了她的手腕。"
+    "西平突然站起身，用力抓住了她的手腕。"
+    "白一又惊又怒，死死地地盯着面前的人。"
     show cg_xp00 at cg0 with dissolve
     xp "你等一下，先听她说完。"
     stop music
@@ -235,9 +270,9 @@ label c1_2:
     "不如说，她更像是某种蛰伏的动物，一直观察着白一和西顺。"
     "而稍有不对，就会露出獠牙。"
     "——当然，是对白一露出獠牙。"
-    by eye_wacky e "我只是想说我要先去个洗手间！{size=23}……顺便晾一下你们……{/size}你们又要怎样啊？？"
-    "夹在中间的那句抱怨很小声，没人听见。"
-    "因而西平顿了顿，而后微微颔首。"
+    by eye_wacky e "我只是想说我要先去个洗手间！{size=23}……顺便拖延一下时间……{/size}你们又要怎样啊？？"
+    "夹在中间的那句抱怨很小声，没人听见。当然，除了我。"
+    "西平顿了顿，而后微微颔首，算是同意了。"
     show xpimg o at char_right with moveinright
     xp "抱歉，我刚刚有些着急。"
     by eye_still o "哦。"
@@ -246,8 +281,8 @@ label c1_2:
     scene bg_restroom1 with fade
     by eye_wacky o "哇靠——她的力气也太大了吧？！这合理吗？"
     "进到洗手间的小隔间，白一强撑的气势立马就泄了下来。"
-    by "超级痛，是吧？突然抓着我的手，还那么用力，连手臂都一起扯到了。"
-    by "我差点以为我的手要断了，至于吗？真受不了……"
+    by eye_close o "超级痛，是吧？突然抓着我的手，还那么用力，连手臂都一起扯到了。"
+    by eye_wacky e "我差点以为我的手要断了，至于吗？真受不了……"
     me "嗯……有点。"
     me "但是……主要是因为，你手上有伤吧……你之前弄的那些……"
     "白一抱怨的声音一下停住。而后，声音变得更加冷硬。"
@@ -256,11 +291,11 @@ label c1_2:
     me "不……我没那么说……嘶。"
     by eye_close def "可惜了，那你也只能受着。"
     show cg_arm at cg0 with vpunchs
-    "她撩起左手的袖口，用力在深深浅浅的伤口上又捏了一把。"
+    "她撩起左手的袖口，又在伤口上用力捏了一把。"
     me "喂……"
     "我没想到只是稍微提一嘴，她的反应就那么大。"
     "说到底，我其实也没有非要问出什么的意思，只是难免会有些好奇而已……"
-    "毕竟，那些伤痕深深浅浅，很明显不是最近这一次就能弄成的样子。"
+    "毕竟，那些伤痕深深浅浅、十分密集，很明显不是最近这一次就能弄成的样子。"
     "但……"
     me "嘶……"
     "又一阵尖锐的刺痛随着白一的动作产生，疼得我恍惚一瞬，忘了思考。"
@@ -268,7 +303,9 @@ label c1_2:
     "最新的伤口好像有些裂开了，暴露在冰冷的空气里。"
     hide cg_arm with w21
     me "……不觉得。"
-    by eye_close smile "噢，那抱歉。不过那也没办法，毕竟这还是我的身体。"
+    by eye_close smile "噢，但我觉得。"
+    me "……"
+    by eye_def o "那抱歉了。不过，你也没办法，毕竟这还是我的身体。"
     "白一有些恶劣地笑了笑，而我不知道该如何回复，只好轻轻地叹了口气。"
     "话题突兀地结束，没有人想要继续说什么，于是继续的只有沉默。"
 
@@ -299,14 +336,14 @@ label c1_2:
     hide xsimg
     show xsimg eye_close o at char_left
     xs "哎……"
-    xp "你没说我不能说。"
+    xp "你没说我不能说那件事。"
     hide xsimg
     show xsimg at char_left
     xs "……我知道，我没在说你。"
     "西顺轻轻拍了拍西平的背，然后回过头，冲着白一无奈地耸耸肩膀。"
     hide xsimg
     show xsimg o at char_left
-    xs "大家都在这，还是回房间说吧。"
+    xs "好吧，大家都在这，还是回房间说吧。"
     by eye_def o "哦……"
     $ persistent.charinfo1[9] = 1
 
@@ -349,7 +386,8 @@ label c1_2:
     hide xsimg
     show xsimg eye_close o at char_mid
     $ renpy.music.set_pause(False)
-    xs "好吧，这确实不重要。总体来说，你和温心都是没什么社会联系的人，高中生，报案人也是个普通的高中生。"
+    xs "好吧，这确实不重要。"
+    xs "总体来说，你和温心都是没什么社会联系的人，是普通高中生。然后，报案人也是个普通的高中生。"
     hide xsimg
     show xsimg o at char_mid
     xs "像你们……你们这样的事情，过程很麻烦，但是涉案人和结果都很简单，不值得动用这么多资源查。"
@@ -367,7 +405,7 @@ label c1_2:
     "是谁怎么想都无所谓，白一只是冷淡地看着西顺继续说。"
     hide xsimg
     show xsimg o at char_mid
-    xs "昨天我收到通知，被要求马上结束调查这件事，有两个选择。"
+    xs "昨天我收到通知，被要求马上结束调查这件事。而调查结果，可以有两个选择。"
     xs "一是公布温心是意外死亡，二是公布你是凶手。"
     hide xsimg
     show xsimg at char_mid
@@ -389,13 +427,13 @@ label c1_2:
     by eye_wacky o "……啊？"
     hide xsimg
     show xsimg eye_close o at char_mid
-    xs "如你所见，因为城安局，我自己查东西的时候会受到阻碍。之后，需要你帮忙的地方更多了。"
+    xs "如你所见，因为城安局，如果我想要自己查东西，反而会受到阻碍。所以，有些事情需要你帮我去做。"
     by eye_move o "哦……免费劳动力是吧。"
     "白一了然，但又有些疑惑。"
     by eye_def e "所以……意思是这么麻烦的事情，你还要继续？而且，你这样不算违规？"
     hide xsimg
     show xsimg eye_move o at char_mid
-    xs "嗯，我自然有我的方法。"
+    xs "嗯，我自然有我的方法，你不用在意这个。"
     hide xsimg
     show xsimg eye_move at char_mid
     "西顺轻咳两声，很快带过这点，显然也是不想多说。"
@@ -409,7 +447,9 @@ label c1_2:
     hide xsimg
     show xsimg o at char_mid
     xs "你不想知道真相吗？"
+    "想知道吗？"
     by eye_def def "……"
+    "要让事情就这么过去吗？"
     by eye_move def "……"
     hide xsimg
     show xsimg at char_mid
@@ -448,8 +488,8 @@ label c1_2:
     by eye_def o "啊？担心什么？"
     hide xsimg
     show xsimg eye_squint smile at char_mid
-    xs "担心你平时和[user]说话被人当成脑子有问题呗哈哈哈。"
-    "西顺没忍住笑出了声，看起来虽然想憋笑，但完全没成功。"
+    xs "担心你平时和小鬼魂说话，被人当成脑子有问题呗，哈哈哈。"
+    "西顺没忍住笑出了声。看起来，虽然她想憋笑，但完全没成功。"
     by eye_still def "……"
     by eye_wacky e "呵呵。"
     stop music fadeout 0.5
@@ -457,6 +497,7 @@ label c1_2:
     scene bg_byroom2 with fade
     by eye_def o "喂，那个啥，你还活着吗？"
     "………………"
+    by eye_still o "……[user]？"
     $ renpy.music.play(music.qimei, loop=True, fadein=1.0)
     me "……啊？在说我吗？"
     "愣了一会，我后知后觉地出声。"
@@ -478,7 +519,7 @@ label c1_2:
     by eye_wacky def "被西顺忽悠瘸了？信她的鬼话。"
     me "呃，没……"
     "不知为何，对于这个话题，我好似没有什么欲望谈论下去。"
-    by "那你这么紧张干什么，就为了这个刻意不说话？更奇怪了。"
+    by eye_close o "那你这么紧张干什么，就为了这个刻意不说话？更奇怪了。"
     me "呃……嗯。"
     "我不得不承认她说得有道理。"
     "不说话是为了拉开距离，可在某种程度上，我们的确……密不可分。"
@@ -529,6 +570,5 @@ label c1_2:
     by eye_close e "你也别太自恋了，就放一百个心好吧……"
     by eye_close e "像她说的那种故事，什么在特殊环境下，产生错误的感情……"
     by eye_close def "那种故事……早就过时了。"
-    scene black with Dissolve(1.5)
     stop music fadeout 1.5
     return

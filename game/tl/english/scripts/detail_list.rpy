@@ -318,3 +318,67 @@ translate english strings:
     old "多次后悔选择这个教师职业"
     new "Regretted choosing the teaching profession multiple times"
 
+# TODO: Translation updated at 2026-02-13 13:48
+
+translate english strings:
+
+    # game/scripts/detail_list.rpy:116
+    old "全称为城市安全管理局，顾名思义，负责处理影响到城市安全的事件。\n内部人员一般分为三个组，民案组，刑事组，特调组。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "特调组-1"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "全称为特别案件调查组，是城安局的主要部门之一，负责解决已经对社会产生重大恶劣影响的事件。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "特调组-2"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "除了对外的说辞，组内更重要的任务是处理一些无法用常理解释的非正常事件，因此也称为特殊怪异事件调查组。\n更多时候，其他重大事件是作为“非正常事件”的幌子，避免大众察觉。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "怪异"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "对“无法用现如今的常识解释的，违反对科学的普遍认知超自然的事件”的统称。\n怪异有多种形态，可单独存在，也可以和生物——活着或死去的生物——相互影响。\n怪异各有不同，一千种怪异可能有一千种特征。它们被收录在城安局的信息系统，也总结出了一套处理公式。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "怪异的负面影响"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "怪异和生物——尤其是人类——接触后，有大概率产生无法控制的负面影响。\n常见的影响作用于精神层面，如频繁的噩梦，幻觉，扰人心智的呓语。\n但也有影响直接作用于身体，如皮肤溃烂、发黑，器官病变。\n影响大多不可逆，也容易留下心理创伤。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "白一身上的诅咒-1"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "和一种古老的诅咒有相似之处。\n该诅咒有一定概率在极端条件下令人进入假死状态，提供可能的生机。\n诅咒生效后，会产生无法预知的副作用。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "白一身上的诅咒-2"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "一体双魂，指的是在一具躯体里强行塞入第二个灵魂。\n这是一种由怪异产生的负面效果，会大量消耗躯体的寿命，直至承受不住。\n这个过程不长，大约有两三个月的时间，身体就会完全崩溃。"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "白一身上的诅咒-3"
+    new ""
+
+    # game/scripts/detail_list.rpy:116
+    old "诅咒生效后必然会产生副作用，为防止人类随意钻空子使用诅咒，怪异会清除掉和诅咒相关的记忆。\n反过来说，只要找回被清除的记忆，就可以彻底清除身上的诅咒。"
+    new ""
+

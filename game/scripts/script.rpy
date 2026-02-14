@@ -8,9 +8,9 @@ label start:
     hide screen disclaimer with dissolve
     pause
     
-    call c0 from _call_c0
-    call c1_1 from _call_c1_1
-    call c1_2 from _call_c1_2
+    call ch0
+    call ch1_1
+    call ch1_2
     return
 
 

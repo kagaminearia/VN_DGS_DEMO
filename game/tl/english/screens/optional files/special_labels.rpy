@@ -10,3 +10,15 @@ translate english strings:
     old "——仅展示游戏风格，不代表游戏的正式内容。"
     new "It only shows the game style and does not represent the official content of the game."
 
+# TODO: Translation updated at 2026-02-13 13:43
+
+translate english strings:
+
+    # game/screens/optional files/special_labels.rpy:17
+    old "简体中文"
+    new "简体中文"
+
+    # game/screens/optional files/special_labels.rpy:17
+    old "English"
+    new "English"
+

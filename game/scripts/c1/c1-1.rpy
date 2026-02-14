@@ -1,5 +1,5 @@
-label c1_1:
-    scene bg_meetingroom with Fade(0.3,0.8,0.3,color="#000")
+label ch1_1:
+    scene bg_meetingroom with Fade(0.3,1,0.3,color="#000")
     show xsimg eye_still smile at char_mid
     $ renpy.music.play(music.texting, loop=True, fadein=0.5)
     "西平离开了，房间里只剩白一和西顺面对面。"
@@ -13,12 +13,12 @@ label c1_1:
     by eye_wacky e "我，不明白你在——"
     hide xsimg
     show xsimg eye_still laugh behind tophalfblk at char_mid 
-    xs "嗯，我确实知道一些东西，你不想问吗？"
+    xs "你难道不想知道，你身上发生了什么吗？"
     hide tophalfblk with dissolve
     by eye_shock o "什——"
     "听到这指向性极强的话，白一忘了反驳，也忘了视线的逃避。"
     "她猛地抬起头，瞪大眼睛。"
-    me "她，她是……"
+    me "她，她是说……"
     hide xsimg
     show xsimg o at char_mid
     xs "嗯，我听得见那个声音，在你身上。"
@@ -51,10 +51,12 @@ label c1_1:
     "不知道是不是错觉，我似乎能感觉到，她现在不是看着白一，而是我。"
     hide xsimg
     show xsimg smile at char_mid
-    xs "这位……同志？怎么称呼？"
+    xs "这位……朋友？怎么称呼？"
     by eye_wacky e "很好，现在这里有两个人疯了。"
+    me "……"
     "随着白一的冷笑，我和西顺在这十足奇怪的场景下，开始了完全不科学，也不符合常理的对话。"
-    "然而，不管是我还是白一，似乎都没法给出让西顺满意的答案，询问也在几个“不知道”后陷入停滞状态。"
+    "然而，不管是我还是白一，似乎都没法给出让西顺满意的答案。"
+    "几个“不知道”后，询问终于陷入停滞状态。"
     stop music fadeout 0.5
 
     scene bg_meetingroom with fade
@@ -74,9 +76,9 @@ label c1_1:
     "西顺被逗笑了，而后一边无奈地揉了揉太阳穴，一边开口。"
     hide xsimg
     show xsimg o at char_mid
-    xs "我明白你的意思，也没有不想跟你说，之前只是还有别的因素要考虑。"
+    xs "……我明白你的意思，也没有不想跟你说，之前只是还有别的因素要考虑。"
     by eye_move def "……哦。"
-    "西顺并没有生气，意外的好态度让白一都有些愣神，好一会才闷闷地应了一声。"
+    "西顺并没有生气，甚至可以说态度很好。这让白一都有些意外，愣神了好一会才闷闷地应了一声。"
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "就像之前说的，特调组表面上是处理一些危险的特大案件，实际上还会处理一些……不那么科学的东西。"
@@ -88,13 +90,23 @@ label c1_1:
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
     $ renpy.notify(_("【词典】更新"))
 
-    by eye_move o "哦哦，说你呢，不科学的东西，都怪你。"
+    by eye_still def "……"
+    "听到她说出那个“专有名词”，白一微微眯了眯眼睛。"
+    "她有些惊讶，但稍微放心了一点。"
+    "因为这似乎说明，发生在她身上的事情是有迹可循的，并不是完全的未知。"
+    by eye_still o "所以……我现在就是遇上了怪异？"
+    xs "可以这么理解，但是，更适合的说法是，你和……你身上的小鬼魂，共同作为一个完整的怪异。"
+    by eye_wacky e "……真是令人不太舒服的说法。"
+    by eye_move o "喂喂……都怪你，不科学的东西。"
     "知道能被西顺听见后，白一装也不装了，当着她说话的面就开始把怒火放在我身上。"
-    me "……喂，我也很无辜。"
+    me "……所以说，我也很无辜好吗？"
     by eye_move e "呵呵。"
     hide xsimg
     show xsimg eye_close o at char_mid
-    xs "刚刚我们在谈话中已经确认了，你现在是清醒的，你身上的怪异特性也没有对你本人的身体产生负面影响。"
+    xs "好了，所以说我们现在就是要解决问题。"
+    hide xsimg
+    show xsimg o at char_mid
+    xs "刚刚我们已经在观察中确认了，你现在是清醒的，你身上的怪异特性也没有对你本人的身体产生负面影响。"
     
     $ persistent.dictLs[4] = 1
     $ renpy.sound.play(sound.dictionary, channel="dictionary", loop=False)
@@ -103,12 +115,12 @@ label c1_1:
     hide xsimg
     show xsimg at char_mid
     xs "嗯，至少目前没有。"
-    "西顺中肯地点点头。"
+    "西顺轻轻点头，十分严谨。"
     by eye_def o "这你们也能确认出来？"
     hide xsimg
     show xsimg o at char_mid
-    xs "是啊。就像我能听到你们说话，总有你不知道的办法。"
-    xs "总之，要确认你是安全的，我们才能继续。"
+    xs "当然。我们自然有自己的办法。就像，我能听到你们说话一样。"
+    xs "总之，必须要确认你是安全无害的，我们才能继续。"
     by eye_wacky def "……哦。"
     "白一翻了个白眼，但情绪没刚才那么激烈了。"
     "也许是知道了西顺之前一直含糊其辞，现在才进入正题的原因……"
@@ -119,17 +131,18 @@ label c1_1:
     hide xsimg
     show xsimg o at char_mid
     xs "12月11日下午，民案组接到报案，在晟欧路的一栋民房发现了两具尸体。"
-    by eye_def o "哦。"
+    by eye_def o "……啊？哦。"
     "跟我有什么关系？\n白一大概率是想这么说。"
     hide xsimg
     show xsimg eye_close o at char_mid
     xs "其中一具，是你的尸体。"
-    by eye_wacky e "…………谁的？"
+    by eye_wacky e "………………谁的？"
     $ renpy.music.play(music.horror, loop=True, fadein=0.5)
     "白一忍不住抬手，揉了揉耳朵，以为自己听到的是幻觉。"
     hide xsimg
     show xsimg at char_mid
     xs "嗯，是你的尸体。当时，已经确认了没有生命体征。"
+    by eye_wacky o "……"
     hide xsimg
     show xsimg o at char_mid
     xs "他们认为是意外死亡，所以送回来之后也没有进行多余的检查，只是等通知家属来认领。"
@@ -143,7 +156,7 @@ label c1_1:
     by eye_wacky e "我也想知道，这合理吗？？"
     hide xsimg
     show xsimg eye_close at char_mid
-    xs "嗯，把我们的值班小姐姐吓得够呛……之后的事你都知道了。"
+    xs "嗯，把我们值班的小姐姐吓得够呛……之后的事情，你都知道了。"
     hide xsimg
     show xsimg smile at char_mid
     xs "搞得我大半夜的还要加班，被拉过来救场呢。"
@@ -154,18 +167,20 @@ label c1_1:
     "她的呼吸很急促，却被控制得极轻。"
     "如果不是我能够感觉到她的气息，怕是要以为那些所谓“活过来”都是胡话。"
     "……真的不是胡话吗？"
-    "我完全理解白一的反应。就算事情摆在眼前，就算解释无比合理，还是很难不去怀疑，甚至觉得眼前的一切才是虚假的幻觉。"
+    "我完全理解白一的反应。"
+    "就算事情全都摆在眼前，就算解释无比合理，还是很难不去怀疑，甚至觉得眼前的一切才是虚假的幻觉。"
     "西顺盯着白一，看她似乎冷静下来一些才继续说话。"
-    hide xsimg
-    show xsimg o at char_mid
     stop music
+
+    scene bg_meetingroom with fade
+    show xsimg o at char_mid with dissolve
     xs "怎么样，我说的这些前因后果，你现在理清了没？"
     by eye_def e "呃……大概。"
     xs "你的事情还要后续调查，需要你的配合，最好在影响到你的身体之前解决。"
     by eye_still o "还会影响？你不是说没事？"
     hide xsimg
     show xsimg eye_close at char_mid
-    xs "我说的是{b}现在{/b}没事。"
+    xs "不，我说的是{b}现在{/b}没事。"
     by eye_wacky def "哈？不就是我死了又活了，反正现在是正常的，就当什么都没发生过不就行了。"
     "白一说得随意，好像身上发生这种事情的不是她本人一样。"
     hide xsimg
@@ -174,7 +189,8 @@ label c1_1:
     "西顺无奈地耸耸肩膀，态度很明确，这件事到她接手，一定要有始有终。"
     by eye_move def "……啧。"
     xs "从过往数据来看，怪异会对生物产生影响，只是时间问题，你不要有侥幸心理。"
-    by eye_def o "我没有。那能不能现在就让她从我身体里滚蛋。"
+    by eye_def o "我没有。"
+    by eye_still o "那能不能现在就让她从我身体里滚蛋。"
     hide xsimg
     show xsimg o at char_mid
     xs "我只能说，会尽力。"
@@ -191,10 +207,10 @@ label c1_1:
     hide xsimg
     show xsimg o at char_mid
     xs "我们刚才说过，案发现场有两具尸体，当时都被断定为意外死亡。"
-    by eye_def o "当时？"
+    by eye_def o "……你是说，两具？"
     hide xsimg
     show xsimg at char_mid
-    xs "嗯，你，还有另外一个人。"
+    xs "嗯，你，还有另外一个人，一起死亡。"
     by eye_wacky def "……"
     "白一皱起眉毛，莫名有种令人不舒服的，即将被麻烦事缠上的感觉。"
     hide xsimg
@@ -220,19 +236,21 @@ label c1_1:
     xs "你说的那个，的确也可以是一种可能性。"
     hide xsimg
     show xsimg o at char_mid
-    xs "但是，要先从可能性最高的方向开始调查，也就是你。"
+    xs "但是，要先从可能性最高的方向开始调查，也就是你是凶手。"
     xs "不管是什么，都有必要查清楚。"
     hide xsimg
     show xsimg eye_close o at char_mid
-    xs "毕竟，你也想不起来那天发生了什么不是吗。"
+    xs "毕竟，你自己也想不起来那天发生了什么，不是吗。"
     "西顺两手摊开，做出一个“我也没办法”的表情，换来白一的冷笑。"
-    by eye_wacky e "我是失忆，不是傻逼，怎么可能会做这种傻逼事。"
+    by eye_wacky e "我是不记得，又不是没脑子，没记忆我也知道，我怎么可能会做这种事情。"
     hide xsimg
     show xsimg o at char_mid
     xs "我也相信，但这不是你或者我说了算的。"
+    by eye_wacky def "……"
     hide xsimg
     show xsimg o at char_mid
-    xs "好了，今天很晚了，先这样。也不至于要让你不眠不休，但之后的时间就麻烦你继续配合啰。"
+    xs "好了，今天已经很晚了，先这样。"
+    xs "也不至于要让你不眠不休，但之后的时间就麻烦你继续配合啰。"
     by eye_move def "……哦。"
     stop music fadeout 0.5
 
@@ -257,7 +275,7 @@ label c1_1:
     stop sound
     "再次听到我的声音，白一终于停下手上的动作。"
     "原本要切成长条的肉块，已经被白一刚才的力气剁成了糊状物质。"
-    by eye_still e "草……晦气。烦死了……"
+    by eye_still e "啊……晦气。烦死了……"
     "说完，她又举起菜刀，恶狠狠地拍了两下。"
     "看这架势，怕是把西顺当成了这块被剁的肉……"
 
@@ -265,7 +283,7 @@ label c1_1:
     "凌晨回家后，白一就直接睡着了，中午醒来就一直是这一副怨气极深的样子。"
     "不过，想来也能理解。{p}无论是谁，突然被卷入这种事情都很难保持平静吧……"
     "醒来之后，白一已经把家里检查了一遍，但仍然没有想起任何关于那两天的事情。"
-    "因而，尽管不想，但现在也只好等着西顺的指示。"
+    "因而，尽管她不想，但现在也只好等着西顺的指示。"
     by eye_def o "你会被饿死吗？"
     me "啊？"
     by eye_def e "……算了，要是你真会被饿死反而方便了。"
@@ -277,10 +295,13 @@ label c1_1:
     by eye_wacky e "用你说？"
     by eye_wacky e "我知道啊。没心情而已。"
     by eye_close e "很烦，很困，很冷，还要出门……啧。"
+    by eye_close o "我根本不想动……"
 
-    "白一在床上躺了一会，滚了好几圈，最终还是跳下床，从抽屉里掏出一个面包。"
+    "白一在床上躺了一会，之后又滚了好几圈。"
+    "最终，她还是不情愿地跳下床，然后从旁边的柜子里掏出一个面包。"
     "正撕开包装纸时，门铃响了。"
 
+    scene bg_byroom3 with fade
     show xsimg smile at char_mid with moveinleft
     xs "哟，我来早了？不是预留时间给你吃午饭了吗。"
     by eye_wacky e "呵呵，毕竟马上要去自己的死亡现场，很难有食欲。"
@@ -313,7 +334,7 @@ label c1_1:
     xs "还有这里……"
     stop music fadeout 0.5
     hide screen clue_display with dissolve
-    "正如西顺所说，资料的内容不多，就连解剖尸体的记录也是后来才加上的——之前被定义为意外，他们没有想过解剖。"
+    "正如西顺所说，资料的内容不多，就连解剖尸体的记录也是后来才加上的——之前，事件被定义为意外，他们没有想过解剖。"
     scene bg_car with fade
     by eye_still def "嗯。"
     "西顺简单概括完，白一仍然盯着资料纸。她只是从喉咙里挤出一声，便没再说话。"
@@ -352,7 +373,7 @@ label c1_1:
     "也许，不，一定……并没有她嘴上说的那么轻松。"
     "毕竟……她也只有17岁而已。"
     by eye_move def "啧……受不了，冷得要死……"
-    by eye_close o "不下雪的降温，简直就是耍流氓。"
+    by eye_close o "这么冷了都不下雪，没劲，简直就是耍流氓。"
     "白一系紧鞋带，倏地站起身。"
     "只剩下最后一句轻飘飘的话，{w=0.5}颤抖着散落在冰冷的空气中。"
 
@@ -367,7 +388,7 @@ label c1_1:
     $ quick_menu = True
 
     by eye_def e "咳，咳咳……"
-    "楼梯间更加狭窄拥挤。\n爬上来耗费的体力，杂物中飞舞的灰尘，以及冰冷的空气让白一忍不住咳嗽了好一会。"
+    "楼梯间更加狭窄拥挤。\n爬上来耗费的体力不少，再加上杂物中飞舞的灰尘以及冰冷的空气，让白一忍不住咳嗽了好一会。"
     "推开门，有些狭小的房间一览无余。"
     "一张木桌贴着一张床在右侧，旁边挨着几个高高的柜子，最左边的柜子通向贴墙的小灶台。中间开了一扇门，通向洗手间。"
     show xsimg o at char_mid with moveinleft
@@ -398,7 +419,7 @@ label c1_1_extra:
         "有他人导致温心死亡":
             me "她……应该不是自杀吧。是被人害了。"
             by eye_def def "……嗯。"
-            by eye_def o "怎么说？"
+            by eye_def o "那具体呢？你是怎么想的？"
             jump c1_1_menu1
             return
 
@@ -436,6 +457,8 @@ label c1_1_menu1_wrong:
     $ quick_menu = True
     # 【选错笔记】
     by eye_wacky o "你是怎么通过这种东西得出刚才的结论的？"
+    me "额……这个嘛……"
+    by eye_still o "虽然我也不确定，但绝对不会是这个吧？"
     me "……"
     jump c1_1_extra
     return
@@ -446,10 +469,12 @@ label c1_1_menu1_correct:
     # 【选对笔记-药盒/燃气灶】
     by eye_def def "看来你跟我想得差不多。"
     me "嗯……也许？"
-    by eye_def o "记得资料上说，整个过程是温心吃了安眠药之后在房间里睡死了，然后因为忘记关燃气灶而中毒。"
-    by eye_def o "但是……这里根本没有任何安眠药的痕迹……药盒里也只有感冒药。说明她平时可能根本不吃。"
-    by eye_def o "然后……燃气灶也有点奇怪。"
-    me "对，她房间都收得很干净，也记录有定期清理的习惯，只有灶台堆积了重重的灰尘。"
+    by eye_still o "虽然我也不确定，但是，应该吧……"
+    me "那个资料上不是说，整个过程是温心吃了安眠药之后，在房间里睡死了吗，然后，因为忘记关燃气灶而中毒。"
+    me "但是……这里根本没有任何安眠药的痕迹，药盒里也只有感冒药。说明她平时可能根本不吃。"
+    me "然后……燃气灶也有点奇怪。"
+    by eye_still e "嗯……她房间都收得很干净，比我家干净很多。"
+    me "呃……是，她的便签也写了，有定期清理的习惯。但是，只有灶台堆积了重重的灰尘。"
     by eye_still o "也就是说……她刚好那天吃了安眠药，又刚好忘了关灶台，还刚好遇上燃气灶的喷嘴被堵了。"
     me "哪有这么巧的事？"
     by eye_close e "对啊，信这种事是巧合不如信我是全球首富。"
@@ -462,6 +487,10 @@ label c1_1_menu1_correct:
     show xsimg at char_mid
     "西顺忽然从旁边插嘴，气得白一大叫起来。"
     by eye_shock o "{size=45}我没失忆！！{/size}"
+    by eye_close o "我只是很惊讶！而已！"
+    hide xsimg
+    show xsimg o at char_mid
+    xs "惊讶什么？"
     by eye_def o "我以为，你是通过设备辅助之类才能在房间里听到声音的。"
     xs "不不，你可以理解为我的体质特殊，所以能听见。"
     by eye_wacky e "靠，开挂啊。"
@@ -523,13 +552,14 @@ label c1_1_menu2_correct:
     me "对，虽然也可能就是没有东西，但是……"
     by eye_def e "但是就会显得很奇怪。"
     by eye_def o "她会把一次性筷子收起来，平时应该很节约，然后习惯了。就是，不用的话也不会丢掉。"
+    by eye_close o "哦，反正我是这样的，我们都很穷嘛。"
     by eye_def o "但她如果这么节约，按理说不应该会吃“湘味”那家店才对。"
     by eye_def o "或者她就是想吃……那外卖也不知道去哪里了。平时八点扔垃圾，但那天她八点之前就……死了。"
     me "所以最有可能的是，有另外一个人点了外卖，然后处理掉了。"
-    by eye_def e "对……而且这个人不是我，可以查我的消费记录。"
+    by eye_def e "对……而且这个人不是我。可以查我的消费记录，我绝对没买这个的。"
     me "……但这只是猜测，并不知道有没有第三个人存在。"
-    "虽然很希望，但我还是忍不住提醒了一句，生怕这是所谓虚假的希望。"
-    by eye_still e "废话，我知道……我当然知道。"
+    "虽然很希望这个猜测是对的，但我还是忍不住提醒了一句，生怕这是所谓虚假的希望。"
+    by eye_still e "废话，我知道……我当然知道啊。"
     show xsimg eye_still o at char_mid with dissolve
     xs "这方面你们不用担心，你……总之，我们会找出真凶的。"
     hide xsimg
@@ -549,9 +579,10 @@ label c1_1_menu2_correct:
     by eye_wacky o "哈？"
     hide xsimg
     show xsimg laugh at char_mid
-    xs "比如——你跟我回去，做一下身体检查。"
+    xs "比如——你现在跟我回去，先做一下身体检查。"
     by eye_close o "啊——好吧。"
     "白一翻了个白眼，然后像号丧一样，长长地吐出一口气，认命地跟在西顺身后。"
     stop music fadeout 0.5
     return
+
 

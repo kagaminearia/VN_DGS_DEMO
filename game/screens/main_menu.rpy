@@ -46,38 +46,6 @@ style main_navigation_button_text:
     hover_underline True
     selected_underline True
     selected_hover_underline True
-    
-screen testchapter():
-    tag menu
-    key "mouseup_3" action Return()
-    add "#000000ff"
-    hbox:
-        xalign 0.3
-        yalign 0.5
-        spacing 110
-        vbox:
-            # xalign 0.25
-            # yalign 0.25
-            spacing 10
-            textbutton ("c0") action Start("c0")
-            textbutton ("c1-1") action Start("c1_1")
-            textbutton ("c1-2") action Start("c1_2")
-            textbutton ("c1-3") action Start("c1_3")
-            textbutton ("c1-4") action Start("c1_4")
-            textbutton ("c1-5") action Start("c1_5")
-            textbutton ("c2-1") action Start("c2_1")
-            textbutton ("c2-2") action Start("c2_2")
-            textbutton ("c2-3") action Start("c2_3")
-            textbutton ("c2-4") action Start("c2_4")
-            textbutton ("c2-5") action Start("c2_5")
-            textbutton ("c2_6") action Start("c2_6")
-        vbox:
-            textbutton ("c3_1") action Start("c3_1")
-            textbutton ("c3_2") action Start("c3_2")
-            textbutton ("c4_1") action Start("c4_1")
-            textbutton ("c4_2") action Start("c4_2")
-            textbutton ("particle") action Start("particle")
-            textbutton "DEBUG" action Start("testing")
 
 init python:
     def clear_all_persistent():
