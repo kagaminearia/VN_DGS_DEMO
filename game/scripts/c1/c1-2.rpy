@@ -259,7 +259,7 @@ label ch1_2:
     hide cg_xp00
     by eye_shock e "你要干嘛？！"
     "西平突然站起身，用力抓住了她的手腕。"
-    "白一又惊又怒，死死地地盯着面前的人。"
+    "白一又惊又怒，死死地盯着面前的人。"
     show cg_xp00 at cg0 with dissolve
     xp "你等一下，先听她说完。"
     stop music

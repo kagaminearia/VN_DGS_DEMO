@@ -241,13 +241,13 @@ screen char_screen(index):
 
 init python:
     def get_clue_image(index):
-        # lang = "ch" if renpy.game.preferences.language == "None" else "en"
         lang = "en" if renpy.game.preferences.language == "english" else "ch"
         
-        if renpy.has_image("clue %d %s" % (index, lang)):
-            return "clue %d %s" % (index, lang)
+        if renpy.has_image("clue_%d_%s" % (index, lang)):
+            return "clue_%d_%s" % (index, lang)
 
-        return "clue %d" % index
+        return "clue_%d" % index
+
 
 screen clue_screen(index):
     on "show" action Stop(channel="text")
@@ -312,7 +312,7 @@ screen clue_choice(correctchoice,wronglabel,correctlabel,question=""):
         xalign 0.5
         yalign 0.5
         
-    text "[question]":
+    text _([question]):
         vertical True
         xalign 0.5
         yalign 0.5
@@ -346,7 +346,7 @@ screen clue_choice(correctchoice,wronglabel,correctlabel,question=""):
                             yoffset 20
                         background "gui/ev/ev-btn-idle.png"
                         hover_background "gui/ev/ev-btn-hover.png"
-                        text "[clueList[i][0]]":
+                        text _([clueList[i][0]]):
                             yoffset -20
                             align (0.5,1.0)
                             color gui.black
