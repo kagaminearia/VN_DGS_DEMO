@@ -316,13 +316,13 @@ translate english ch1_2_6f8e24fb:
 translate english ch1_2_1490f5a8:
 
     # xs "那是因为时机不对。"
-    xs "“That’s because the timing was off."
+    xs "That’s because the timing was off."
 
 # game/scripts/c1/c1-2.rpy:74
 translate english ch1_2_26e46969:
 
     # xs "如果没有被特案组发现，你就是一个很倒霉，但也很幸运的受害者。"
-    xs "If the SIUhadn’t found out, you'd just be a very unlucky—but also very lucky—victim."
+    xs "If the SIU hadn’t found out, you'd just be a very unlucky—but also very lucky—victim."
 
 # game/scripts/c1/c1-2.rpy:75
 translate english ch1_2_f5babd59:
